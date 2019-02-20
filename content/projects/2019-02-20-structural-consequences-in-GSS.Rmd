@@ -1,0 +1,32 @@
+---
+title: Structural Consequences of Grout Deterioration in the Grouted Shear Stud Connections
+author: Arjun Jayaprakash
+date: '2019-02-20'
+slug: structural-consequences-in-GSS
+categories:
+  - Projects
+tags:
+  - Seismic Design
+  - Bridge Connection
+  - Experimental Testing
+---
+
+# Background and Motivation
+
+## The Grouted Shear Stud Connection
+
+In steel bridge substructures, the conventional practice for connecting the steel columns/piles to the cap beam was through a direct weld. This is shown in the figure below. The yellow oval encircles the region where the column is directly welded to the cap beam.
+
+```{r, out.width="300px", fig.cap="From a bridge in Alaska, USA", fig.align='center', echo=FALSE}
+knitr::include_graphics("/projects/figures/AKDOTbridge2.png")
+```
+
+However, these kind of connections were tested in the lab a few years ago under cyclic lateral loading, i.e., loading cycles along the longitudinal axis of the cap beam. These tests resulted in what you see here:
+
+```{r, out.width="300px", fig.cap="From a laboratory test", fig.align='center', echo=FALSE}
+knitr::include_graphics("/projects/figures/directweldfailure2.png")
+```
+
+The columns ruptured at or near the weld region. This is what we call as a brittle mode of failure which is undesirable in any structure. To add to that, these columns were not even able to develop their full section ductility when they failed. In other words, this type of failure limit state can be regarded as "premature". Hence a conclusion was that the directly welded connections cannot be used in seismic design applications.
+
+ 
