@@ -4,9 +4,9 @@ title: Home
 
 [<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
 
-# HUGO XMIN
+# ARJUN JAYAPRAKASH
 
-## _Keep it simple, but not simpler_
+## _PhD Candidate, NC State University_
 
 **XMin** is a Hugo theme written by [Yihui Xie](https://yihui.name) in about four hours: half an hour was spent on the Hugo templates, and 3.5 hours were spent on styling. The main motivation for writing this theme was to provide a really minimal example to beginners of Hugo templates. This XMin theme contains about 130 lines of code in total, including the code in HTML templates and CSS (also counting empty lines).
 
@@ -20,7 +20,7 @@ find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xarg
       64 ./Version4/public/note/index.html
       61 ./Version4/public/note/2017/06/13/a-quick-note/index.html
       56 ./Version4/public/note/2017/06/14/another-note/index.html
-     111 ./Version4/public/index.html
+     139 ./Version4/public/index.html
       64 ./Version4/public/post/2015/07/23/lorem-ipsum/index.html
       95 ./Version4/public/post/2015/07/23/hello-r-markdown/index.html
       69 ./Version4/public/post/index.html
@@ -54,7 +54,7 @@ find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xarg
       20 ./Version4/themes/hugo-xmin/layouts/partials/header.html
       51 ./Version4/themes/hugo-xmin/static/css/style.css
        7 ./Version4/themes/hugo-xmin/static/css/fonts.css
-    2076 total
+    2104 total
 ```
 
 I can certainly further reduce the code, for example, by eliminating the CSS, but I believe a tiny bit of CSS can greatly improve readability. You cannot really find many CSS frameworks that only contain 50 lines of code.
