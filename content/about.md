@@ -9,4 +9,4 @@ I have had that happen multiple times to me and one reason for not being able to
 
 This website is an attempt to compile ideas pertaining to the areas of Structural Engineering that are of interest to me. The website is a solution that directly addresses the first problem of not having a space for ideas. As for the second problem regarding motivation, I have been sufficiently motivated by my intention to seek an academic position after my imminent graduation.
 
-In here, you will be able to find a little bit of the work that I have done over the past few years, some article reviews, work that I would like to do in the near future a well as some teaching materials. 
+In here, you will be able to find a little bit of the work that I have done over the past few years, some article reviews, work that I would like to do in the near future, as well as some teaching materials. 
