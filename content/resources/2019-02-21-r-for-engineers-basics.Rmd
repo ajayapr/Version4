@@ -13,7 +13,7 @@ tags:
   - Rstudio
 ---
 
-This is the first post in a series of posts where I go over some R syntax useful for engineers. I am in no way an expert in R programming, but have been using it to read, analyze and visualize the data I obtain from both physical experiments as well as simulations. The R coding I will be discussing will therefore may not be the most efficient way to solve problems. So I am always open for suggestions to improve.
+This is the first post in a series of posts where I go over some R syntax useful for engineers. I am in no way an expert in R programming, but have been using it to read, analyze and visualize the data I obtain from both physical experiments as well as simulations. The R coding I will be discussing may therefore not be the most efficient way to solve problems. So I am always open for suggestions to improve.
 
 # Rstudio IDE
 
