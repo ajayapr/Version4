@@ -30,4 +30,38 @@ knitr::include_graphics("/projects/figures/directweldfailure2.png")
 The columns ruptured at or near the weld region. This is what we call as a brittle mode of failure which is undesirable in any structure. To add to that, these columns were not even able to develop their full section ductility when they failed. In other words, this type of failure limit state can be regarded as "premature". Hence a conclusion was that the directly welded connections cannot be used in seismic design applications.
 
 After going through a few alternatives, the researchers converged onto the grouted shear stud (GSS) connection which was able to successfully move the failure away from the welded region thereby inducing plastic hinging at the column section with maximum moment. This is a desirable failure mode since it is ductile. 
+
+The GSS connection looks like a socket type connection as shown here:
+
+```{r, out.width="200px", fig.cap="The GSS connection on an experimental specimen", fig.align='center', echo=FALSE, fig.show='hold'}
+knitr::include_graphics(c("/projects/figures/GSS_bent.png","/projects/figures/GSSafter.png" ))
+```
  
+A larger diameter pipe stub is shop welded onto the cap beam first.   
+_Note: A large part of field welding is eliminated if one uses this connection which is desirable from cost and quality control standpoint_.  
+After this, the cap beam + stub assembly is brought to the site where the pile columns will already have been erected. The cap beam + stub assembly is then lowered onto the columns such that the column tops fit into the socket created by the larger diameter stub. The annular region that is hence formed is then grouted with a high strength cementitious grout. The larger diameter connection section acts as a composite section resisting a much larger moment than the capacity of the pile section. 
+
+To facilitate this composite action, shear stud connectors are welded on the inside of the stub as well as the outside of the pile top as shown:
+
+```{r, out.width="200px", fig.cap="Notice the shear studs welded within the connection", fig.align='center', echo=FALSE}
+knitr::include_graphics("/projects/figures/GSSbefore.png")
+```
+
+By now, I presume, you have formed an idea of what the GSS connection looks like. So how did it fare? Here is the picture of a specimen that failed in a ductile mode:
+
+```{r, out.width="200px", fig.cap="Failure via plastic hinge formation = Good!", fig.align='center', echo=FALSE}
+knitr::include_graphics("/projects/figures/GSSfailuremode.png")
+```
+
+There is some spalling of the grout material but the connection remained fairly undamaged. All the damage was concentrated just below the connection: plastic hinge formation followed by local pile wall buckling. Here is a sample force-displacement hysteresis curve of two tests on similar specimens: 
+
+```{r, out.width="300px", fig.cap="Gradual drop in strength and failure at high ductility = Promising!", fig.align='center', echo=FALSE}
+knitr::include_graphics("/projects/figures/GSStesthysteresis.png")
+```
+
+The specimens seemed to take lateral loading pretty well. Hence, the conclusion was that the GSS connection can potentially be a good candidate for seismic design.
+
+Ok, so that was a summary of the GSS connection: what it is, how it came into being and how well it assisted in lateral load resistance. 
+
+## So why not start using it then?
+
