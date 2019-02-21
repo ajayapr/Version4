@@ -13,10 +13,10 @@
     
     <item>
       <title>R for engineers - Basics</title>
-      <link>/teaching/2019/02/21/r-for-engineers-basics/</link>
+      <link>/resources/r-for-engineers-basics/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/2019/02/21/r-for-engineers-basics/</guid>
+      <guid>/resources/r-for-engineers-basics/</guid>
       <description>This is the first post in a series of posts where I go over some R syntax useful for engineers. I am in no way an expert in R programming, but have been using it to read, analyze and visualize the data I obtain from both physical experiments as well as simulations. The R coding I will be discussing will therefore may not be the most efficient way to solve problems.</description>
     </item>
     
