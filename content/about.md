@@ -3,7 +3,7 @@ author: Arjun Jayaprakash
 title: About this website
 ---
 
-Have you ever had this happen to you when you when a great idea pops up in your head from nowhere and you feel, "Wow, this is a great idea, I need to write this down, hmm... maybe later!" A few hours later, you don't even remember the existence of the idea.
+Have you ever had this happen to you when a great idea pops up in your head from nowhere and you feel, "Wow, this is a great idea, I need to write this down, hmm... maybe later!" A few hours later, you don't even remember the existence of the idea.
 
 I have had that happen multiple times to me and one reason for not being able to follow up on ideas that my past self has had was lack of a specific space that I can quickly note it down. A second reason was a lack of motivation to even pursue them.
 
