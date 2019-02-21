@@ -24,19 +24,23 @@ footnotereturnlinkcontents = "↩"
 [[menu.main]]
     name = "Projects"
     url = "/projects/"
-    weight = 3   
+    weight = 3  
+[[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 4     
 [[menu.main]]
     name = "CV"
     url = "/files/Curriculum_Vitae.pdf"
-    weight = 4    
+    weight = 5    
 [[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 5
+    weight = 6
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 6
+    weight = 7
 
 
 [params]
