@@ -1,11 +1,22 @@
 ---
 title: Home
 ---
+[<img src="http://simpleicons.org/icons/linkedin.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://www.linkedin.com/in/arjun-jayaprakash-e-i-t-431632a0/)
 
-[<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
+[<img src="http://simpleicons.org/icons/twitter.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://https://twitter.com/ahankariindian)
+
+[<img src="http://simpleicons.org/icons/github.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/ajayapr)
 
 # ARJUN JAYAPRAKASH
 
-## _PhD Candidate, NC State University_
+### _PhD Candidate, NC State University_
 
-All pages not under the root directory of the website are listed below. You can also visit the list page of a single section, e.g., [posts](/post/), [projects](/projects/), or [notes](/note/). See the [About](/about/) for a short description on why this site exists.
+**Website Contents**
+
+* [About](/about/)
+* [Projects](/projects/)
+* [Resources](/contents/)
+* [List of Publications](/publications/)
+* [Search Tags](/tags/)
+
+**Latest Updates**

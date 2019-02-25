@@ -28,7 +28,7 @@ footnotereturnlinkcontents = "↩"
     weight = 3  
 [[menu.main]]
     name = "Resources"
-    url = "/resources/"
+    url = "/contents/"
     weight = 4    
 [[menu.main]]
     name = "Publications"
@@ -46,7 +46,6 @@ footnotereturnlinkcontents = "↩"
     name = "Tags"
     url = "/tags/"
     weight = 8
-
 
 [params]
     description = "A website built through Hugo and blogdown."

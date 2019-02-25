@@ -1,0 +1,16 @@
+---
+title: Contents
+author:
+date: 
+slug: contents
+categories: []
+tags: []
+---
+
+# Blog Tutorials
+
+* [R for Engineers I](\resources\blogs\r-for-engineers-basics) 
+
+# Software Tools
+
+# Literature Review

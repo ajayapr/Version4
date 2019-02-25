@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/resources/r-for-engineers-basics/</loc>
+    <loc>/resources/blogs/r-for-engineers-basics/</loc>
     <lastmod>2019-02-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -31,6 +31,10 @@
   <url>
     <loc>/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/contents/</loc>
   </url>
   
   <url>
