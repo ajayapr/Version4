@@ -15,5 +15,115 @@ tags:
 
 This is the first post in a series of posts where I go over some R syntax useful for engineers. I am in no way an expert in R programming, but have been using it to read, analyze and visualize the data I obtain from both physical experiments as well as simulations. The R coding I will be discussing may therefore not be the most efficient way to solve problems. So I am always open for suggestions to improve.
 
-# Rstudio IDE
+# The Setup
 
+I started using R to plot graphs for my project reports. I liked how R plots looked compared to those created by MATLAB or Excel (This was down to just personal preference). And we are only talking about default plot commands in base R. Once I realized that there are dedicated visualization packages, I could never go back to any other plotting tools. For a beginner, the R user interface may feel daunting. This is where Rstudio IDE comes in. Rstudio is a wrap around software that provides an excellent user interface for your R environment. I highly recommend using Rstudio for using R. For those who have used MATLAB before, Rstudio IDE should feel right at home. 
+
+The way this works is:
+
+* Download and install R onto your machine. You can go [here](https://www.r-project.org/) and follow instructions to install R.
+
+* Download and install Rstudio separately. Check it out [here](https://www.rstudio.com/products/rstudio/). They are also deeloping a cloud version as well.
+
+* Open Rstudio on your machine and you are set.
+
+
+# The very basics
+
+I my opinion (keep in mind I'm not a computer scientist), the best way to learn any language (not just computer languages) is to learn their atomic units. They are the alphabets or characters for human languages, which essentially are the smallest things you work with to build larger things. In computer languages they take the form of datatypes. It could be a character such as "c", or a string such as "hello". It could just be a number which can take the form of an integer or a float, or a vector, which is an array of numbers. There are many more. In this section, I want to introduce some basic commands to create such units.
+
+Something to also keep in mind is that these units are stored in the workspace using names that the user can recognize. These names plus the value that they store are together called "Variables". Creating anything would most likely involve:
+
+Some variable name = Some number or character or vector etc.
+
+Note that in the above format, the '=' sign can also be replaced with '<-' in R programming language. 
+
+A number 10 can be stored under the variable name of x as:
+
+```{r}
+x <- 10
+```
+
+A string "Arjun" can be stored under the variable name _myname_ as:
+
+```{r}
+myname <- "Arjun"
+```
+
+Note that the string is always provided in quotes. 
+
+All of this can be done in two ways in Rstudio. Either type the commands in the 'console' window and press _Enter_ or _Command_, or create a new file _File_ > _New File_ > _R Script_ and type these in the editor window. In R, these scripts are normally ran line by line as opposed to the entire code. 
+
+Either way, if you ask R to print the variables we stored, it will give you back the values stored in these.
+
+```{r}
+print(x)
+print(myname)
+```
+
+This is how the output looks like in R. It can also be worthwhile to understand the _class_ of the variable you have stored. You can google R classes to get more information on the different types of classes that are available.
+
+```{r}
+class(x)
+class(myname)
+```
+
+## Vectors
+
+Vectors are the workhorses in my R codes. They store a single dimensional array of the same class. For instance:
+
+```{r}
+Independence_day <- c(1947, 8, 15)
+```
+
+stores three numbers as a single vector in the variable name "Independence_day". _Note that a variable name cannot contain any spaces_. The syntax shown above is one of the ways to create a vector. It has a 'c' followed by the vector elements separated by commas inside a paranthesis. Lets print this and check class.
+
+```{r}
+print(Independence_day)
+class(Independence_day)
+```
+
+The class command gives the class of the elements inside the vector. A vector can also be made of strings.
+
+```{r}
+fullname <- c("Arjun", "Jayaprakash")
+print(fullname)
+class(fullname)
+```
+
+Note that the class command gives the value "character".
+
+If your vector is supposed to contain a series of integers, an extremenly quick way to define it would be:
+
+```{r}
+myvector <- 4:9
+print(myvector)
+```
+
+Another way to define numberical vectors is to use the 'seq' command. 
+
+```{r}
+seqvector <- seq(from = 4, to = 9, by = 1)
+print(seqvector)
+```
+
+Elements of any vector can be accessed as follows:
+
+```{r}
+third_element <- myvector[3]
+print(third_element)
+```
+
+An interesting and eventually useful feature in R is the ability to define named vectors,i.e., we can define names for each of the element in a vector so that it is easier to remember or access. For instance:
+
+```{r}
+fullname <- c(first = "Arjun", last = "Jayaprakash")
+print(fullname)
+fullname["first"]
+```
+
+Just remember that this is possible. This will come in handy at some point.
+
+# Creating Projects
+
+This is a good time to take a diversion and talk about creating projects in Rstudio. I learned this after some time of being introduced to R but wish I had learned it sooner. So, before going any further lets learn how to create a dedicated project for any of your work so that you can switch seamlessly between multiple projects. 
