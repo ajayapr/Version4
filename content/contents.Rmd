@@ -13,9 +13,9 @@ tags: []
 
 # Software Tools
 
-# Literature Review
+# Concepts
 
-# Recommended Resources
+# Recommendations
 
 ## Online Learning Portals
 
