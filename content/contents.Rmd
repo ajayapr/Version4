@@ -14,3 +14,11 @@ tags: []
 # Software Tools
 
 # Literature Review
+
+# Recommended Resources
+
+## Online Learning Portals
+
+* [MIT Open Courseware](https://www.youtube.com/user/MIT)
+* [EdX](https://www.edx.org/)
+* [DataCamp](https://www.datacamp.com/)

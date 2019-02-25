@@ -30,7 +30,7 @@ The way this works is:
 
 # The very basics
 
-I my opinion (keep in mind I'm not a computer scientist), the best way to learn any language (not just computer languages) is to learn their atomic units. They are the alphabets or characters for human languages, which essentially are the smallest things you work with to build larger things. In computer languages they take the form of datatypes. It could be a character such as "c", or a string such as "hello". It could just be a number which can take the form of an integer or a float, or a vector, which is an array of numbers. There are many more. In this section, I want to introduce some basic commands to create such units.
+In my opinion (keep in mind I'm not a computer scientist), the best way to learn any language (not just computer languages) is to learn their atomic units. They are the alphabets or characters for human languages, which essentially are the smallest things you work with to build larger things. In computer languages they take the form of datatypes. It could be a character such as "c", or a string such as "hello". It could just be a number which can take the form of an integer or a float, or a vector, which is an array of numbers. There are many more. In this section, I want to introduce some basic commands to create such units.
 
 Something to also keep in mind is that these units are stored in the workspace using names that the user can recognize. These names plus the value that they store are together called "Variables". Creating anything would most likely involve:
 

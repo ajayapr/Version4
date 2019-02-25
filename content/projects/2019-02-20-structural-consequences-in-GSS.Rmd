@@ -63,9 +63,9 @@ The specimens seemed to take lateral loading pretty well. Hence, the conclusion 
 
 Ok, so that was a summary of the GSS connection: what it is, how it came into being and how well it assisted in lateral load resistance. 
 
-## So why not start using it then?
+## So why not start widespread use?
 
-Despite its shining performance under cyclic lateral loading, the GSS connection is still not fully qualified to be employed in actual practice. 
+Despite its shining performance under cyclic lateral loading, the GSS connection has not been fully understood to be employed in actual practice. 
 
 ### The grout variable
 
@@ -78,3 +78,14 @@ When talking about the service life of the grout, one has to also ask the questi
 So what can we do about it? How can we ensure that the GSS connection is indeed the right candidate for the job?
 
 # Research Approach 
+
+## Ideally...
+
+The ideal approach would be to first test some structure that employs the GSS connection in laboratory conditions. Subsequent specimens should then be exposed to extreme weather conditions for a long time, say 20, 50 to 100 years and then test them for their structural performance. Needless to say, this is impractical.
+
+## A more practical approach
+
+Here is what we did. The first step remains the same, i.e., test a structural specimen with GSS connections under laboratory conditions. Then for the second specimen, we physically simulated a deteriorated state of grout within the GSS connection. The assumption is that this simulated deterioration is representative of the deterioration casued by years of extreme weather exposure. 
+
+## How did we simulate deterioration?
+
