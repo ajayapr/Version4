@@ -13,7 +13,7 @@
     <item>
       <title>Projects</title>
       <link>/categories/projects/</link>
-      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/projects/</guid>
       <description></description>
@@ -34,6 +34,15 @@
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structures</title>
+      <link>/categories/structures/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/structures/</guid>
       <description></description>
     </item>
     

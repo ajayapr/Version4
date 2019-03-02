@@ -1,0 +1,15 @@
+---
+title: Balance Ratio to Characterize Earthquake Loading History - A pilot study
+author: Arjun Jayaprakash
+date: '2019-03-02'
+slug: balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study
+categories:
+  - Projects
+  - Structures
+tags:
+  - Seismic Design
+  - Ground Motion Characterization
+  - Statistical Approach
+---
+
+# Background and Motivation

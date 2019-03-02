@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistical Approach on Arjun Jayaprakash</title>
+    <link>/tags/statistical-approach/</link>
+    <description>Recent content in Statistical Approach on Arjun Jayaprakash</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/statistical-approach/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Balance Ratio to Characterize Earthquake Loading History - A pilot study</title>
+      <link>/projects/2019/03/02/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/2019/03/02/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</guid>
+      <description> Background and Motivation  </description>
+    </item>
+    
+  </channel>
+</rss>
