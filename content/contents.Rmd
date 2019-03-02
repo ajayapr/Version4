@@ -11,7 +11,9 @@ tags: []
 
 * [R for Engineers I](\resources\blogs\r-for-engineers-basics) 
 
-# Software Tools
+# Presentations
+
+* [Structural Consequences of Grout Deterioration in the GSS Connection. _Structural Engineering and Mechanics Symposium_. NC State 2019](\files\SEM_Symposium_2019_March.pdf)
 
 # Concepts
 
