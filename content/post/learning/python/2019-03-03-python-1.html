@@ -1,0 +1,51 @@
+---
+title: Python 1
+author: Arjun Jayaprakash
+date: '2019-03-03'
+slug: python-1
+categories:
+  - Python
+tags:
+  - Python
+  - Learning
+---
+
+
+
+<div id="first-lessons" class="section level1">
+<h1>First lessons</h1>
+<p>Here is how a simple code looks like. Saving variables as <em>int</em> (integers) or <em>float</em> (floating points) are shown.</p>
+<ul>
+<li><p>Exponentiation: ** This operator raises the number to its left to the power of the number to its right.</p></li>
+<li><p>Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right.</p></li>
+</ul>
+<pre class="python"><code># Create a variable savings
+savings = 100
+
+# Create a variable growth_multiplier
+growth_multiplier = 1.1
+
+# Calculate result
+result = savings*growth_multiplier**7
+
+# Print out result
+print(result)</code></pre>
+<pre><code>## 194.87171</code></pre>
+<p>Variable <em>savings</em> is of data type <strong>int</strong> and <em>growth_multplier</em> is of data type <strong>float</strong>. Two other data types that is of use are <strong>str</strong> (string) and <strong>bool</strong> (Boolean).</p>
+<pre class="python"><code># Create a variable desc
+desc = &quot;compound interest&quot;
+
+# Create a variable profitable
+profitable = True</code></pre>
+<p>If you want to find the type of a variable, use the function <em>type()</em>. This is analogous to the <em>class()</em> function in <em>R</em>.</p>
+<p>An important thing in <em>Python</em> is that the operators like ‘+’ have different behaviors based on the type of the variables being operated upon. Sum of two integers will be an integer. If you sum two strings, you will get a concatenated string.</p>
+<pre class="python"><code>&quot;A&quot; + &quot;B&quot;</code></pre>
+<pre><code>## &#39;AB&#39;</code></pre>
+<div id="type-conversion" class="section level2">
+<h2>Type conversion</h2>
+<p>Seems like type conversion of variables is a useful feature in <em>Python</em>. Functions <em>int(), str(), float(), and bool()</em> could be used to convert variables having different types to integer, string, float, and boolean respectively. Here is an application:</p>
+<pre class="python"><code>age = 7
+print(&quot;I am &quot; + str(age) + &quot; years old&quot;)</code></pre>
+<pre><code>## I am 7 years old</code></pre>
+</div>
+</div>

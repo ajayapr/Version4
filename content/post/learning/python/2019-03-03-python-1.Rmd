@@ -1,0 +1,64 @@
+---
+title: Python 1
+author: Arjun Jayaprakash
+date: '2019-03-03'
+slug: python-1
+categories:
+  - Python
+tags:
+  - Python
+  - Learning
+---
+
+```{r setup, include=FALSE}
+library(reticulate)
+```
+
+# First lessons
+
+Here is how a simple code looks like. Saving variables as _int_ (integers) or _float_ (floating points) are shown. 
+
+* Exponentiation: ** This operator raises the number to its left to the power of the number to its right. 
+
+* Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right. 
+
+```{python}
+# Create a variable savings
+savings = 100
+
+# Create a variable growth_multiplier
+growth_multiplier = 1.1
+
+# Calculate result
+result = savings*growth_multiplier**7
+
+# Print out result
+print(result)
+```
+
+Variable _savings_ is of data type **int** and *growth_multplier* is of data type **float**. Two other data types that is of use are **str** (string) and **bool** (Boolean).
+
+```{python}
+# Create a variable desc
+desc = "compound interest"
+
+# Create a variable profitable
+profitable = True
+```
+
+If you want to find the type of a variable, use the function *type()*. This is analogous to the *class()* function in *R*.
+
+An important thing in *Python* is that the operators like '+' have different behaviors based on the type of the variables being operated upon. Sum of two integers will be an integer. If you sum two strings, you will get a concatenated string.
+
+```{python}
+"A" + "B"
+```
+
+## Type conversion
+
+Seems like type conversion of variables is a useful feature in *Python*. Functions _int(), str(), float(), and bool()_ could be used to convert variables having different types to integer, string, float, and boolean respectively. Here is an application:
+
+```{python}
+age = 7
+print("I am " + str(age) + " years old")
+```

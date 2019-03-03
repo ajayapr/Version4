@@ -1,0 +1,19 @@
+---
+title: "Learning Python - Py series"
+author: "Arjun Jayaprakash"
+date: "3/2/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(reticulate)
+```
+
+## About the series
+
+So, I decided to give _Python_ a try. This blog series is just me jotting down whatever I learn in _Python_. This isn't a tutorial since I am a beginner myself. However, this may serve as a good resource for beginners like me. 
+
+## Chapters
+
+* [Python 1](\post\2019\03\03\python-1)
+

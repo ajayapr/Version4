@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Arjun Jayaprakash</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Arjun Jayaprakash</description>
+    <title>Python on Arjun Jayaprakash</title>
+    <link>/categories/python/</link>
+    <description>Recent content in Python on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
  Exponentiation: ** This operator raises the number to its left to the power of the number to its right.
  Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right.
   # Create a variable savings savings = 100 # Create a variable growth_multiplier growth_multiplier = 1.</description>
-    </item>
-    
-    <item>
-      <title>Learning Python - Py series</title>
-      <link>/post/1/01/01/learning-python-py-series/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/1/01/01/learning-python-py-series/</guid>
-      <description> About the series So, I decided to give Python a try. This blog series is just me jotting down whatever I learn in Python. This isn’t a tutorial since I am a beginner myself. However, this may serve as a good resource for beginners like me.
- Chapters  Python 1   </description>
     </item>
     
   </channel>
