@@ -1,0 +1,84 @@
+---
+title: Elimination method
+author: Arjun Jayaprakash
+date: '2019-03-14'
+slug: elimination-method
+categories:
+  - Linear Algebra
+  - Mathematics
+tags: []
+---
+
+## Basic concept
+
+It is all about solving a system of simultaneous linear equations, referring back to high school maths. Say we have,
+
+$$ x + 2y + z = 2$$
+$$ 3x + 8y + z = 12$$
+$$ 4y + z = 2$$
+
+we can convert this set of equations into a single equation through matrices. Just compile all the coefficients onto a matrix $\textbf{A}$ and the variables into an unknown vector $\textbf{x}$. Add to this, the vector of the values on the right hand side as another vector $\textbf{b}$ after the equal to sign.
+
+$$\mathbf{A} \mathbf{x} = \mathbf{b}$$
+
+It is now, all about the matrix $\mathbf{A}$. 
+
+$$\mathbf{A} = \left[\begin{array}
+{rrr}
+1 & 2 & 1 \\
+3 & 8 & 1 \\
+0 & 4 & 1
+\end{array}\right]
+$$
+Remember also,
+
+$$
+\mathbf{x} = \left[\begin{array}
+{r}
+x\\
+y\\
+z
+\end{array}\right]
+$$
+In elimination, what we do is multiply one equation of the three given by a constant so that a subtraction operation of two equations would eliminate one variable. We start with $\mathbf{A}_{11}$. We have to somehow multiply this by a number to make the element just below, $\mathbf{A}_{21}$  equal to 0 to eliminate $x$ in equation 2. We all this element as $\mathbf{A}_{11}$ the first pivot. If we were to multiply the first row by 3 and subtract it from the second row, we can achieve this.
+
+The next step is to make $\mathbf{A}_{31}$ equal to 0 to completely eliminate $x$. However, this is already zero. So we move to $y$ next. Now the aim is to make $\mathbf{A}_{32}$ equal to 0 and so on. This process will finally yield a matrix with the lower triangle equal to all zeros. The matrix $\mathbf{A}$ now becomes,
+
+$$\mathbf{U} = \left[\begin{array}
+{rrr}
+1 & 2 & 1 \\
+0 & 2 & -2 \\
+0 & 0 & 5
+\end{array}\right]
+$$
+
+Once we get this, we can solve the set of equations by back substitution. This is doing just the same row operations in the same order to the values on the right hand side and then finding the variables by first finding $z$, then $y$ and then $x$.
+
+**But...**
+
+This process can fail if the any of the pivots are zero. There is a possibility that row exchanges of the matrix can save us. This is called a temporary failure. However, if the last pivot is zero, the process breaks down completely. 
+
+## Same thing using matrix operations
+
+The same steps that we performed manually on each row can be done using matrix operations. This is the beauty of linear algebra. 
+
+**To understand that...**
+
+Remember what matrix multiplication means. If you were to multiply a matrix by a vector, you get a vector. This vector is a linear combination of all the columns in the matrix and is a column vector. Basically, you multiply the first column of the matrix by the first element of the vector, add to that the second column multiplied by the second element of the vector and so on.
+
+Example,
+$$\mathbf{A} \mathbf{x} = \mathbf{b}$$
+Here, if $\mathbf{A}$ is an $m\times m$ matrix and $\mathbf{x}$ is a $m\times 1$ vector, $\mathbf{b}$ is an $m\times 1$ vector which is a linear combination of the columns of $\mathbf{A}$.
+
+Now, if you were to multiply a matrix by a vector on its left side, you again get a vector. However, this time it is a row vector which in fact is the linear combination of all the rows of the matrix. You multiply the first row of the matrix by the first element of the vector, add to that the second row multiplied by the second element of the vector and so on.
+
+Example,
+$$\mathbf{y} \mathbf{A}  = \mathbf{c}$$
+
+Here, if $\mathbf{A}$ is an $m\times m$ matrix and $\mathbf{y}$ is a $1\times m$ vector, $\mathbf{c}$ is an $1\times m$ vector which is a linear combination of the rows of $\mathbf{A}$.
+
+My point is that if a matrix is operated on by another on its left side, it is performing row operations. If it is being operated on its right side, column operations are being performed.
+
+**Back to elimination...**
+
+Elimination is nothing but a series of row operations. You multiply one equation which is a row by a scalar and subtract it from another equation/row. So, a specific matrix on the left side of the coefficient matrix can perform elimination.

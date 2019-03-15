@@ -8,7 +8,7 @@ categories:
 tags:
   - Python
   - Learning
-draft: TRUE  
+draft: FALSE  
 ---
 
 ```{r setup, include=FALSE}
@@ -63,3 +63,30 @@ Seems like type conversion of variables is a useful feature in *Python*. Functio
 age = 7
 print("I am " + str(age) + " years old")
 ```
+
+## Python Lists
+
+A convenient way to compile information of multiple data types is to create a list. List is yet another data type in python. It can be assigned to a variable name. Also, lists can contain more lists. A list is defined by putting in the elements of the list inside square brackets "[]". Here is an example code for a list of lists.
+
+```{python}
+# area variables (in square meters)
+hall = 11.25
+kit = 18.0
+liv = 20.0
+bed = 10.75
+bath = 9.50
+
+# house information as list of lists
+house = [["hallway", hall],
+         ["kitchen", kit],
+         ["living room", liv],
+         ["bedroom", bed],
+         ["bathroom", bath]]
+
+# Print out house
+print(house)
+
+# Print out the type of house
+print(type(house))
+```
+

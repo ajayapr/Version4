@@ -12,4 +12,6 @@ tags:
   - Statistical Approach
 ---
 
-# Background and Motivation
+# Introduction
+
+Earthquake "hazard" is a technical term for a quantitiy or a series of quanitites that captures the effect of an earthquake ground motion on structures. For instance, the peak ground acceleration (PGA) is an extremely simple representation of an earthquake. It essentially is the maximum ground acceleration value observed at a site during an earthquake. Does this tell us everything we want to know about an earthquake? Of course not. Is it useful? Occasionally. But regardless, it is one of the earliest quantification of an earthquake hazard. 

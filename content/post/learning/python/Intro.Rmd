@@ -17,3 +17,9 @@ So, I decided to give _Python_ a try. This blog series is just me jotting down w
 
 * [Python 1](\post\2019\03\03\python-1)
 
+### Sources
+
+Please note that the example code chunks I am using here weren't developed by myself. I am collating these from multiple sources. I will populate the list below as the number of sources increase.
+
+* [DataCamp](https://www.datacamp.com/courses/intro-to-python-for-data-science)
+* [freeCodeCamp](https://www.youtube.com/watch?v=rfscVS0vtbw)

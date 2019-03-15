@@ -79,6 +79,31 @@ profitable = True</code></pre>
 print(&quot;I am &quot; + str(age) + &quot; years old&quot;)</code></pre>
 <pre><code>## I am 7 years old</code></pre>
 </div>
+<div id="python-lists" class="section level2">
+<h2>Python Lists</h2>
+<p>A convenient way to compile information of multiple data types is to create a list. List is yet another data type in python. It can be assigned to a variable name. Also, lists can contain more lists. A list is defined by putting in the elements of the list inside square brackets “[]”. Here is an example code for a list of lists.</p>
+<pre class="python"><code># area variables (in square meters)
+hall = 11.25
+kit = 18.0
+liv = 20.0
+bed = 10.75
+bath = 9.50
+
+# house information as list of lists
+house = [[&quot;hallway&quot;, hall],
+         [&quot;kitchen&quot;, kit],
+         [&quot;living room&quot;, liv],
+         [&quot;bedroom&quot;, bed],
+         [&quot;bathroom&quot;, bath]]
+
+# Print out house
+print(house)
+
+# Print out the type of house</code></pre>
+<pre><code>## [[&#39;hallway&#39;, 11.25], [&#39;kitchen&#39;, 18.0], [&#39;living room&#39;, 20.0], [&#39;bedroom&#39;, 10.75], [&#39;bathroom&#39;, 9.5]]</code></pre>
+<pre class="python"><code>print(type(house))</code></pre>
+<pre><code>## &lt;type &#39;list&#39;&gt;</code></pre>
+</div>
 </div>
 
 </main>

@@ -1,0 +1,60 @@
+---
+title: Elimination method
+author: Arjun Jayaprakash
+date: '2019-03-14'
+slug: elimination-method
+categories:
+  - Linear Algebra
+  - Mathematics
+tags: []
+---
+
+
+
+<div id="basic-concept" class="section level2">
+<h2>Basic concept</h2>
+<p>It is all about solving a system of simultaneous linear equations, referring back to high school maths. Say we have,</p>
+<p><span class="math display">\[ x + 2y + z = 2\]</span> <span class="math display">\[ 3x + 8y + z = 12\]</span> <span class="math display">\[ 4y + z = 2\]</span></p>
+<p>we can convert this set of equations into a single equation through matrices. Just compile all the coefficients onto a matrix <span class="math inline">\(\textbf{A}\)</span> and the variables into an unknown vector <span class="math inline">\(\textbf{x}\)</span>. Add to this, the vector of the values on the right hand side as another vector <span class="math inline">\(\textbf{b}\)</span> after the equal to sign.</p>
+<p><span class="math display">\[\mathbf{A} \mathbf{x} = \mathbf{b}\]</span></p>
+<p>It is now, all about the matrix <span class="math inline">\(\mathbf{A}\)</span>.</p>
+<p><span class="math display">\[\mathbf{A} = \left[\begin{array}
+{rrr}
+1 &amp; 2 &amp; 1 \\
+3 &amp; 8 &amp; 1 \\
+0 &amp; 4 &amp; 1
+\end{array}\right]
+\]</span> Remember also,</p>
+<p><span class="math display">\[
+\mathbf{x} = \left[\begin{array}
+{r}
+x\\
+y\\
+z
+\end{array}\right]
+\]</span> In elimination, what we do is multiply one equation of the three given by a constant so that a subtraction operation of two equations would eliminate one variable. We start with <span class="math inline">\(\mathbf{A}_{11}\)</span>. We have to somehow multiply this by a number to make the element just below, <span class="math inline">\(\mathbf{A}_{21}\)</span> equal to 0 to eliminate <span class="math inline">\(x\)</span> in equation 2. We all this element as <span class="math inline">\(\mathbf{A}_{11}\)</span> the first pivot. If we were to multiply the first row by 3 and subtract it from the second row, we can achieve this.</p>
+<p>The next step is to make <span class="math inline">\(\mathbf{A}_{31}\)</span> equal to 0 to completely eliminate <span class="math inline">\(x\)</span>. However, this is already zero. So we move to <span class="math inline">\(y\)</span> next. Now the aim is to make <span class="math inline">\(\mathbf{A}_{32}\)</span> equal to 0 and so on. This process will finally yield a matrix with the lower triangle equal to all zeros. The matrix <span class="math inline">\(\mathbf{A}\)</span> now becomes,</p>
+<p><span class="math display">\[\mathbf{U} = \left[\begin{array}
+{rrr}
+1 &amp; 2 &amp; 1 \\
+0 &amp; 2 &amp; -2 \\
+0 &amp; 0 &amp; 5
+\end{array}\right]
+\]</span></p>
+<p>Once we get this, we can solve the set of equations by back substitution. This is doing just the same row operations in the same order to the values on the right hand side and then finding the variables by first finding <span class="math inline">\(z\)</span>, then <span class="math inline">\(y\)</span> and then <span class="math inline">\(x\)</span>.</p>
+<p><strong>But…</strong></p>
+<p>This process can fail if the any of the pivots are zero. There is a possibility that row exchanges of the matrix can save us. This is called a temporary failure. However, if the last pivot is zero, the process breaks down completely.</p>
+</div>
+<div id="same-thing-using-matrix-operations" class="section level2">
+<h2>Same thing using matrix operations</h2>
+<p>The same steps that we performed manually on each row can be done using matrix operations. This is the beauty of linear algebra.</p>
+<p><strong>To understand that…</strong></p>
+<p>Remember what matrix multiplication means. If you were to multiply a matrix by a vector, you get a vector. This vector is a linear combination of all the columns in the matrix and is a column vector. Basically, you multiply the first column of the matrix by the first element of the vector, add to that the second column multiplied by the second element of the vector and so on.</p>
+<p>Example, <span class="math display">\[\mathbf{A} \mathbf{x} = \mathbf{b}\]</span> Here, if <span class="math inline">\(\mathbf{A}\)</span> is an <span class="math inline">\(m\times m\)</span> matrix and <span class="math inline">\(\mathbf{x}\)</span> is a <span class="math inline">\(m\times 1\)</span> vector, <span class="math inline">\(\mathbf{b}\)</span> is an <span class="math inline">\(m\times 1\)</span> vector which is a linear combination of the columns of <span class="math inline">\(\mathbf{A}\)</span>.</p>
+<p>Now, if you were to multiply a matrix by a vector on its left side, you again get a vector. However, this time it is a row vector which in fact is the linear combination of all the rows of the matrix. You multiply the first row of the matrix by the first element of the vector, add to that the second row multiplied by the second element of the vector and so on.</p>
+<p>Example, <span class="math display">\[\mathbf{y} \mathbf{A}  = \mathbf{c}\]</span></p>
+<p>Here, if <span class="math inline">\(\mathbf{A}\)</span> is an <span class="math inline">\(m\times m\)</span> matrix and <span class="math inline">\(\mathbf{y}\)</span> is a <span class="math inline">\(1\times m\)</span> vector, <span class="math inline">\(\mathbf{c}\)</span> is an <span class="math inline">\(1\times m\)</span> vector which is a linear combination of the rows of <span class="math inline">\(\mathbf{A}\)</span>.</p>
+<p>My point is that if a matrix is operated on by another on its left side, it is performing row operations. If it is being operated on its right side, column operations are being performed.</p>
+<p><strong>Back to elimination…</strong></p>
+<p>Elimination is nothing but a series of row operations. You multiply one equation which is a row by a scalar and subtract it from another equation/row. So, a specific matrix on the left side of the coefficient matrix can perform elimination.</p>
+</div>

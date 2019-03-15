@@ -6,10 +6,30 @@
     <description>Recent content in Home on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Elimination method</title>
+      <link>/post/2019/03/14/elimination-method/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/03/14/elimination-method/</guid>
+      <description>Basic concept It is all about solving a system of simultaneous linear equations, referring back to high school maths. Say we have,
+\[ x + 2y + z = 2\] \[ 3x + 8y + z = 12\] \[ 4y + z = 2\]
+we can convert this set of equations into a single equation through matrices. Just compile all the coefficients onto a matrix \(\textbf{A}\) and the variables into an unknown vector \(\textbf{x}\).</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>/post/2019/03/14/intro/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/03/14/intro/</guid>
+      <description>About the series I have been watching MIT Open Courseware lectures on Linear Algebra by Dr. Gilbert Strang to refresh my memory of the concepts. I had watched this series a couple of years ago while I was taking the Advanced Finite Element course at my university. At that time, I thought I had a good grasp of the concepts. However, two years of non-usage has left me completely ignorant of the core concepts of matrix operations.</description>
+    </item>
     
     <item>
       <title>Python 1</title>
@@ -29,7 +49,7 @@
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/projects/2019/03/02/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</guid>
-      <description> Background and Motivation  </description>
+      <description>Introduction Earthquake “hazard” is a technical term for a quantitiy or a series of quanitites that captures the effect of an earthquake ground motion on structures. For instance, the peak ground acceleration (PGA) is an extremely simple representation of an earthquake. It essentially is the maximum ground acceleration value observed at a site during an earthquake. Does this tell us everything we want to know about an earthquake? Of course not.</description>
     </item>
     
     <item>
@@ -76,7 +96,7 @@ I have had that happen multiple times to me and one reason for not being able to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contents/</guid>
-      <description> Blog Tutorials  R for Engineers I   Presentations  Structural Consequences of Grout Deterioration in the GSS Connection. Structural Engineering and Mechanics Symposium. NC State 2019   Learning Series  Python   Recommendations Online Learning Portals  MIT Open Courseware EdX DataCamp    </description>
+      <description> Blog Tutorials  R for Engineers I   Presentations  Structural Consequences of Grout Deterioration in the GSS Connection. Structural Engineering and Mechanics Symposium. NC State 2019   Learning Series  Python Linear Algebra   Recommendations Online Learning Portals  MIT Open Courseware EdX DataCamp    </description>
     </item>
     
     <item>
@@ -85,8 +105,8 @@ I have had that happen multiple times to me and one reason for not being able to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/post/1/01/01/learning-python-py-series/</guid>
-      <description> About the series So, I decided to give Python a try. This blog series is just me jotting down whatever I learn in Python. This isn’t a tutorial since I am a beginner myself. However, this may serve as a good resource for beginners like me.
- Chapters  Python 1   </description>
+      <description>About the series So, I decided to give Python a try. This blog series is just me jotting down whatever I learn in Python. This isn’t a tutorial since I am a beginner myself. However, this may serve as a good resource for beginners like me.
+ Chapters  Python 1  Sources Please note that the example code chunks I am using here weren’t developed by myself. I am collating these from multiple sources.</description>
     </item>
     
     <item>

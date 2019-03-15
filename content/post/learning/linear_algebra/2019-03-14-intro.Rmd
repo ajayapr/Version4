@@ -1,0 +1,18 @@
+---
+title: Intro
+author: Arjun Jayaprakash
+date: '2019-03-14'
+slug: intro
+categories:
+  - Linear Algebra
+  - Mathematics
+tags: []
+---
+
+## About the series
+
+I have been watching MIT Open Courseware lectures on Linear Algebra by Dr. Gilbert Strang to refresh my memory of the concepts. I had watched this series a couple of years ago while I was taking the Advanced Finite Element course at my university. At that time, I thought I had a good grasp of the concepts. However, two years of non-usage has left me completely ignorant of the core concepts of matrix operations. So this time, I have decided to document whatever I learn _via_ this post. The main reason I am going back to understand Linear Algebra now is to understand some papers I am reading that are on computational modeling of structures. 
+
+## Chapters
+
+* [Elimination method](\post\2019\03\14\elimination-method)

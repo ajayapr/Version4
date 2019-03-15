@@ -18,6 +18,7 @@ tags: []
 # Learning Series
 
 * [Python](\post\1\01\01\learning-python-py-series)
+* [Linear Algebra](\post\2019\03\14\intro)
 
 # Recommendations
 
