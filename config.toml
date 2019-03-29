@@ -23,12 +23,12 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
+    name = "Research"
+    url = "/research/"
     weight = 3  
 [[menu.main]]
-    name = "Resources"
-    url = "/contents/"
+    name = "Teaching"
+    url = "/teaching/"
     weight = 4    
 [[menu.main]]
     name = "Publications"
@@ -48,5 +48,5 @@ footnotereturnlinkcontents = "↩"
     weight = 8
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "Arjun Jayaprakash's website."
     footer = "&copy; [Arjun Jayaprakash](https://arjunjayaprakash.netlify.com) 2018 -- 2019 | [Github](https://github.com/ajayapr) | [Twitter](https://twitter.com/ahankariindian) | [LinkedIn](https://www.linkedin.com/in/arjun-jayaprakash-e-i-t-431632a0/)"

@@ -91,15 +91,6 @@ I have had that happen multiple times to me and one reason for not being able to
     </item>
     
     <item>
-      <title>Contents</title>
-      <link>/contents/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/contents/</guid>
-      <description> Blog Tutorials  R for Engineers I   Presentations  Structural Consequences of Grout Deterioration in the GSS Connection. Structural Engineering and Mechanics Symposium. NC State 2019   Learning Series  Python Linear Algebra   Recommendations Online Learning Portals  MIT Open Courseware EdX DataCamp    </description>
-    </item>
-    
-    <item>
       <title>Learning Python - Py series</title>
       <link>/post/1/01/01/learning-python-py-series/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -110,12 +101,30 @@ I have had that happen multiple times to me and one reason for not being able to
     </item>
     
     <item>
-      <title>publications</title>
+      <title>Publications</title>
       <link>/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/publications/</guid>
       <description>Loading…</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/research/</guid>
+      <description> Projects  Structural Consequences of the Grouted Shear Stud Connection Durability of Cementitious Grouts in Cold Climate Balance Ratio to Characterize Earthquake Loading History - A Pilot Study History   Presentations  Structural Consequences of Grout Deterioration in the GSS Connection. Structural Engineering and Mechanics Symposium. NC State 2019{target = “_blank“}   </description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/</guid>
+      <description> Blog Tutorials  R for Engineers I   Learning Series  Python Linear Algebra   Recommendations Online Learning Portals  MIT Open Courseware EdX DataCamp    </description>
     </item>
     
   </channel>
