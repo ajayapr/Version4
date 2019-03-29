@@ -3,4 +3,8 @@ title: "Publications"
 output: html_document
 ---
 
-Loading...
+##Reviewed and Accepted
+
+* Jayaprakash, A., Nau, J., Pour-Ghaz, M., and Kowalsky, M., "Structural Consequences of Grout Deterioration in the Grouted Shear Stud Connection". _Bridge Engineering Institute_. 2019
+
+* Jayaprakash, A., and Kowalsky, M., "Balance Ratio to Characterize Earthquake Loading History for Performance Based Design". _12th Canadian Conference on Earthquake Engineering_. 2019
