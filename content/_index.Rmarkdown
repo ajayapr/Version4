@@ -1,11 +1,11 @@
 ---
 title: Home
 ---
-[<img src="http://simpleicons.org/icons/linkedin.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://www.linkedin.com/in/arjun-jayaprakash-e-i-t-431632a0/)
+<!-- [<img src="http://simpleicons.org/icons/linkedin.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://www.linkedin.com/in/arjun-jayaprakash-e-i-t-431632a0/) -->
 
-[<img src="http://simpleicons.org/icons/twitter.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://https://twitter.com/ahankariindian)
+<!-- [<img src="http://simpleicons.org/icons/twitter.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://https://twitter.com/ahankariindian) -->
 
-[<img src="http://simpleicons.org/icons/github.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/ajayapr)
+<!-- [<img src="http://simpleicons.org/icons/github.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/ajayapr) -->
 
 # ARJUN JAYAPRAKASH
 
