@@ -14,8 +14,8 @@ title: Home
 **Website Contents**
 
 * [About](/about/)
-* [Projects](/projects/)
-* [Resources](/contents/)
+* [Research](/research/)
+* [Teaching](/teaching/)
 * [List of Publications](/publications/)
 * [Search Tags](/tags/)
 

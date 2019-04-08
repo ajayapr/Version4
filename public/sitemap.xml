@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/projects/2019/04/06/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</loc>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2019/03/14/elimination-method/</loc>
     <lastmod>2019-03-14T00:00:00+00:00</lastmod>
   </url>
@@ -15,11 +20,6 @@
   <url>
     <loc>/post/2019/03/03/python-1/</loc>
     <lastmod>2019-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/2019/03/02/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -66,13 +66,13 @@
   
   <url>
     <loc>/tags/ground-motion-characterization/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -111,13 +111,13 @@
   
   <url>
     <loc>/projects/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/projects/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -173,19 +173,19 @@
   
   <url>
     <loc>/tags/seismic-design/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/statistical-approach/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/structures/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
