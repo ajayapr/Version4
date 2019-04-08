@@ -6,10 +6,21 @@
     <description>Recent content in Projects on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research Statement</title>
+      <link>/projects/2019/04/08/research-statement/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/2019/04/08/research-statement/</guid>
+      <description>My short-term research goal is to contribute to the field of structural engineering by focusing on two specific areas:
+ Experimental and computational methods for assessment and retrofitting of existing infrastructure
+ Performance based design of structural systems against natural hazards  Large Scale Experiments of Structures In 2017, American Society of Civil Engineers published a comprehensive infrastructure report card for the United States that gave an overall grade of D+.</description>
+    </item>
     
     <item>
       <title>Balance Ratio to Characterize Earthquake Loading History - A pilot study</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching Statement on Arjun Jayaprakash</title>
+    <link>/tags/teaching-statement/</link>
+    <description>Recent content in Teaching Statement on Arjun Jayaprakash</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/teaching-statement/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teaching Statement</title>
+      <link>/post/2019/04/08/teaching-statement/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/04/08/teaching-statement/</guid>
+      <description>My approach to teaching an undergraduate level course is different from my plan to teach a graduate level course. My experience from observing and teaching the statics course, as well as having been an undergraduate student, has lead me to believe that a majority of the students find it hard to make the transition from high school to college level. Hence, my philosophy for teaching fundamental courses like statics, mechanics of solids, reinforced concrete etc.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,30 @@
     <description>Recent content in Home on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research Statement</title>
+      <link>/projects/2019/04/08/research-statement/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/2019/04/08/research-statement/</guid>
+      <description>My short-term research goal is to contribute to the field of structural engineering by focusing on two specific areas:
+ Experimental and computational methods for assessment and retrofitting of existing infrastructure
+ Performance based design of structural systems against natural hazards  Large Scale Experiments of Structures In 2017, American Society of Civil Engineers published a comprehensive infrastructure report card for the United States that gave an overall grade of D+.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Statement</title>
+      <link>/post/2019/04/08/teaching-statement/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/04/08/teaching-statement/</guid>
+      <description>My approach to teaching an undergraduate level course is different from my plan to teach a graduate level course. My experience from observing and teaching the statics course, as well as having been an undergraduate student, has lead me to believe that a majority of the students find it hard to make the transition from high school to college level. Hence, my philosophy for teaching fundamental courses like statics, mechanics of solids, reinforced concrete etc.</description>
+    </item>
     
     <item>
       <title>Balance Ratio to Characterize Earthquake Loading History - A pilot study</title>
@@ -117,7 +137,8 @@ I have had that happen multiple times to me and one reason for not being able to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/research/</guid>
-      <description> Projects  Structural Consequences of the Grouted Shear Stud Connection Durability of Cementitious Grouts in Cold Climate Balance Ratio to Characterize Earthquake Loading History - A Pilot Study History   Presentations  Structural Consequences of Grout Deterioration in the GSS Connection. Structural Engineering and Mechanics Symposium. NC State 2019   </description>
+      <description> Read my full research statement here.
+Projects  Structural Consequences of the Grouted Shear Stud Connection Durability of Cementitious Grouts in Cold Climate Balance Ratio to Characterize Earthquake Loading History - A Pilot Study History   Presentations  Structural Consequences of Grout Deterioration in the GSS Connection. Structural Engineering and Mechanics Symposium. NC State 2019   </description>
     </item>
     
     <item>
@@ -126,7 +147,8 @@ I have had that happen multiple times to me and one reason for not being able to
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/teaching/</guid>
-      <description> Blog Tutorials  R for Engineers I   Learning Series  Python Linear Algebra   Recommendations Online Learning Portals  MIT Open Courseware EdX DataCamp    </description>
+      <description> Read my full teaching statement here.
+Blog Tutorials  R for Engineers I   Learning Series  Python Linear Algebra   Recommendations Online Learning Portals  MIT Open Courseware EdX DataCamp    </description>
     </item>
     
   </channel>

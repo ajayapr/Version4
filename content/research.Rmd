@@ -11,6 +11,8 @@ tags: []
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Read my full research statement [here](\projects\2019\04\08\research-statement).
+
 ## Projects
 
 * [Structural Consequences of the Grouted Shear Stud Connection](\projects\2019\02\20\structural-consequences-in-gss) 
