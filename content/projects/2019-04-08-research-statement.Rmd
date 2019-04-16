@@ -8,7 +8,7 @@ tags:
   - Research Statement
 ---
 
-My short-term research goal is to contribute to the field of structural engineering by focusing on two specific areas: 
+<div style="text-align: justify">My short-term research goal is to contribute to the field of structural engineering by focusing on two specific areas: 
 
 * Experimental and computational methods for assessment and retrofitting of existing infrastructure  
 * Performance based design of structural systems against natural hazards
@@ -34,6 +34,6 @@ Under the overarching theme of performance-based design, my research will focus 
 
 Within the first few years as a faculty, I want to extend natural hazard characterization research in other directions as well. Machine learning techniques such as supervised and unsupervised learning can help improving our understanding of ground motions. The large uncertainty of the processes that cause hazards such as earthquakes make it a suitable addition to the class of problems that machine learning algorithms are trying to solve. Ground motion data collection has improved drastically in the last three to four decades. I believe that producing efficient algorithms will motivate even more investment in obtaining ground motion data, which will further improve solution accuracies. The National Science Foundation (NSF) is currently funding explorations in this area specific to natural hazards.  
 
-My long-term goal as of now is to set up a sustainable research group that can tackle multi-facetted problems faced by the nation as well as the world. Specific areas of interest for this group will depend on the outcomes of my short-term research goals. In recent years, barriers between different fields of engineering are collapsing as technologies in diverse areas have started to complement each other. In a few years, I envisage multi-disciplinary collaborations to be the norm and hence it is vital to keep up with emerging technologies in other fields that may be useful in Civil Engineering. This will be the core philosophy of my research group. 
+My long-term goal as of now is to set up a sustainable research group that can tackle multi-facetted problems faced by the nation as well as the world. Specific areas of interest for this group will depend on the outcomes of my short-term research goals. In recent years, barriers between different fields of engineering are collapsing as technologies in diverse areas have started to complement each other. In a few years, I envisage multi-disciplinary collaborations to be the norm and hence it is vital to keep up with emerging technologies in other fields that may be useful in Civil Engineering. This will be the core philosophy of my research group. </div>
 
 
