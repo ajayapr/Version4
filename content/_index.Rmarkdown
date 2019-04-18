@@ -7,7 +7,8 @@ title: Home
 
 <!-- [<img src="http://simpleicons.org/icons/github.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/ajayapr) -->
 
-
+<img src="myPic.jpg"
+style="max-width:20%;min-width:40px;float:right;">
 
 # ARJUN JAYAPRAKASH
 
