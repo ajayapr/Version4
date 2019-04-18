@@ -16,6 +16,13 @@ style="max-width:20%;min-width:40px;float:right;">
  Department of Civil, Construction, and Environmental Engineering  
  NC State University
  
+ Office:  
+ Room 219,  
+ Constructed Facilities Laboratory,  
+ 2414 Campus Shore Dr.,  
+ Raleigh, NC - 27606.  
+ Email: ajayapr@ncsu.edu
+ 
  **Short Bio**
 
 <div style="text-align: justify"> My hometown is Calicut, a small city in southern India. I completed my bachelors degree in Civil Engineering in 2011 from the National Institute of Technology Calicut. After working for a couple of years in the industry, I moved to Raleigh, North Carolina to pursue a masters program at NC State University specializing in Structural Engineering. My interest in Earthquake Engineering evolved during my masters subsequently motivating me to continue for a PhD program. I am currently on course to complete my PhD by early 2020. I am actively looking for collaborations in the areas of my interest. </div>
