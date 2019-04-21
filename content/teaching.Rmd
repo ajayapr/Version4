@@ -18,6 +18,9 @@ Read my full teaching statement [here](\post\2019\04\08\teaching-statement).
 * [Python](\post\1\01\01\learning-python-py-series)
 * [Linear Algebra](\post\2019\03\14\intro)
 
+## Q & A 
+
+
 ## Recommendations
 
 ### Online Learning Portals

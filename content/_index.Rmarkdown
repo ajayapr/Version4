@@ -23,7 +23,22 @@ style="max-width:30%;min-width:40px;float:right;">
  Raleigh, NC - 27606.  
  Email: ajayapr@ncsu.edu
  
- **Short Bio**
+ [Linkedin](https://www.linkedin.com/in/arjun-jayaprakash-e-i-t-431632a0/)
+ [<img src="/figures/svg/linkedin.svg" style="max-width:5%;min-width:10px;float:left;" alt="Linkedin profile" />](https://www.linkedin.com/in/arjun-jayaprakash-e-i-t-431632a0/)
+ 
+ [Twitter](https://https://twitter.com/ahankariindian)
+ [<img src="/figures/svg/twitter.svg" style="max-width:5%;min-width:10px;float:left;" alt="Twitter profile" />](https://https://twitter.com/ahankariindian)
+
+[Github](https://github.com/ajayapr) 
+[<img src="/figures/svg/github.svg" style="max-width:5%;min-width:10px;float:left;" alt="Github repo" />](https://github.com/ajayapr)  
+
+[Quora](https://www.quora.com/profile/Arjun-Jayaprakash)
+[<img src="/figures/svg/quora.svg"  style="max-width:5%;min-width:10px;float:left;" alt="Quora profile" />](https://www.quora.com/profile/Arjun-Jayaprakash)
+
+[Goodreads](https://www.goodreads.com/user/show/65677115-ahankari-indian)
+[<img src="/figures/svg/goodreads.svg"  style="max-width:5%;min-width:10px;float:left;" alt="Goodreads profile" />](https://www.goodreads.com/user/show/65677115-ahankari-indian)
+ 
+### Short Bio
 
 <div style="text-align: justify"> My hometown is Calicut, a small city in southern India. I completed my bachelors degree in Civil Engineering in 2011 from the National Institute of Technology Calicut. After working for a couple of years in the industry, I moved to Raleigh, North Carolina to pursue a masters program at NC State University specializing in Structural Engineering. My interest in Earthquake Engineering evolved during my masters subsequently motivating me to continue for a PhD program. I am currently on course to complete my PhD by early 2020. I am actively looking for collaborations in the areas of my interest. </div>
 
