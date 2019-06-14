@@ -9,6 +9,10 @@ tags: []
 
 Read my full teaching statement [here](\post\2019\04\08\teaching-statement).
 
+## Courses
+
+* Statics
+
 ## Blog Tutorials
 
 * [R for Engineers I](\resources\blogs\r-for-engineers-basics) 
