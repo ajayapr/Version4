@@ -6,17 +6,17 @@
     <description>Recent content in Python on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Python 1</title>
-      <link>/post/2019/03/03/python-1/</link>
-      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <link>/post/2019/06/25/python-1/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/03/python-1/</guid>
+      <guid>/post/2019/06/25/python-1/</guid>
       <description>First lessons Here is how a simple code looks like. Saving variables as int (integers) or float (floating points) are shown.
  Exponentiation: ** This operator raises the number to its left to the power of the number to its right.
  Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right.

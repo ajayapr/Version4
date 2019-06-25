@@ -79,6 +79,55 @@ profitable = True</code></pre>
 print(&quot;I am &quot; + str(age) + &quot; years old&quot;)</code></pre>
 <pre><code>## I am 7 years old</code></pre>
 </div>
+<div id="python-strings" class="section level2">
+<h2>Python Strings</h2>
+<p>Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes (‘…’) or double quotes (“…”) with the same result.  can be used to escape quotes:</p>
+<pre class="python"><code>&#39;spam eggs&#39;  # single quotes</code></pre>
+<pre><code>## &#39;spam eggs&#39;</code></pre>
+<pre class="python"><code>&#39;doesn\&#39;t&#39;  # use \&#39; to escape the single quote...</code></pre>
+<pre><code>## &quot;doesn&#39;t&quot;</code></pre>
+<pre class="python"><code>&quot;doesn&#39;t&quot;  # ...or use double quotes instead</code></pre>
+<pre><code>## &quot;doesn&#39;t&quot;</code></pre>
+<pre class="python"><code>&#39;&quot;Yes,&quot; they said.&#39;</code></pre>
+<pre><code>## &#39;&quot;Yes,&quot; they said.&#39;</code></pre>
+<pre class="python"><code>&quot;\&quot;Yes,\&quot; they said.&quot;</code></pre>
+<pre><code>## &#39;&quot;Yes,&quot; they said.&#39;</code></pre>
+<pre class="python"><code>&#39;&quot;Isn\&#39;t,&quot; they said.&#39;
+</code></pre>
+<pre><code>## &#39;&quot;Isn\&#39;t,&quot; they said.&#39;</code></pre>
+<p>If you don’t want characters prefaced by  to be interpreted as special characters, you can use raw strings by adding an r before the first quote:</p>
+<pre class="python"><code>print(&#39;C:\some\name&#39;)  # here \n means newline!</code></pre>
+<pre><code>## C:\some
+## ame</code></pre>
+<pre class="python"><code>print(r&#39;C:\some\name&#39;)  # note the r before the quote</code></pre>
+<pre><code>## C:\some\name</code></pre>
+<p>String literals can span multiple lines. One way is using triple-quotes: “”“…”“” or ‘’’…‘’’. End of lines are automatically included in the string, but it’s possible to prevent this by adding a  at the end of the line. The following example:</p>
+<pre class="python"><code>print(&quot;&quot;&quot;\
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+&quot;&quot;&quot;)</code></pre>
+<pre><code>## Usage: thingy [OPTIONS]
+##      -h                        Display this usage message
+##      -H hostname               Hostname to connect to</code></pre>
+<p>Strings can be concatenated (glued together) with the + operator, and repeated with *:</p>
+<pre class="python"><code>print(3 * &#39;un&#39; + &#39;ium&#39;)</code></pre>
+<pre><code>## unununium</code></pre>
+<pre class="python"><code>prefix = &#39;Py&#39;
+print(prefix + &#39;thon&#39;)</code></pre>
+<pre><code>## Python</code></pre>
+<pre class="python"><code>text = (&#39;Put several strings within parentheses &#39;
+         &#39;to have them joined together.&#39;)
+print(text)</code></pre>
+<pre><code>## Put several strings within parentheses to have them joined together.</code></pre>
+<p>Python strings cannot be changed — they are immutable. Therefore, assigning to an indexed position in the string results in an error:</p>
+<pre class="python"><code>word = &#39;Python&#39;
+word[0] = &#39;J&#39;</code></pre>
+<p>This produces an error! If you need a different string, you should create a new one:</p>
+<pre class="python"><code>word = &#39;Python&#39;
+&#39;J&#39; + word[1:]</code></pre>
+<pre><code>## &#39;Jython&#39;</code></pre>
+</div>
 <div id="python-lists" class="section level2">
 <h2>Python Lists</h2>
 <p>A convenient way to compile information of multiple data types is to create a list. List is yet another data type in python. It can be assigned to a variable name. Also, lists can contain more lists. A list is defined by putting in the elements of the list inside square brackets “[]”. Here is an example code for a list of lists.</p>
@@ -103,6 +152,32 @@ print(house)
 <pre><code>## [[&#39;hallway&#39;, 11.25], [&#39;kitchen&#39;, 18.0], [&#39;living room&#39;, 20.0], [&#39;bedroom&#39;, 10.75], [&#39;bathroom&#39;, 9.5]]</code></pre>
 <pre class="python"><code>print(type(house))</code></pre>
 <pre><code>## &lt;type &#39;list&#39;&gt;</code></pre>
+</div>
+<div id="first-program" class="section level2">
+<h2>First Program</h2>
+<p>We can write an initial sub-sequence of the Fibonacci series as follows:</p>
+<pre class="python"><code># Fibonacci series:
+a, b = 0, 1
+while a &lt; 10:
+  print(a)
+  a, b = b, a+b</code></pre>
+<pre><code>## 0
+## 1
+## 1
+## 2
+## 3
+## 5
+## 8</code></pre>
+<p>This example introduces several new features.</p>
+<ul>
+<li><p>The first line contains a <em>multiple assignment</em>: the variables <strong>a</strong> and <strong>b</strong> simultaneously get the new values 0 and 1. On the last line this is used again, demonstrating that the expressions on the right-hand side are all evaluated first before any of the assignments take place. The right-hand side expressions are evaluated from the left to the right.</p></li>
+<li><p>The <em>while</em> loop executes as long as the condition (here: <strong>a</strong> &lt; 10) remains true. In Python, like in C, any non-zero integer value is true; zero is false. The condition may also be a string or list value, in fact any sequence; anything with a non-zero length is true, empty sequences are false. The test used in the example is a simple comparison. The standard comparison operators are written the same as in C: &lt; (less than), &gt; (greater than), == (equal to), &lt;= (less than or equal to), &gt;= (greater than or equal to) and != (not equal to).</p></li>
+<li><p>The body of the loop is indented: indentation is Python’s way of grouping statements. At the interactive prompt, you have to type a tab or space(s) for each indented line. In practice you will prepare more complicated input for Python with a text editor; all decent text editors have an auto-indent facility. When a compound statement is entered interactively, it must be followed by a blank line to indicate completion (since the parser cannot guess when you have typed the last line). Note that each line within a basic block must be indented by the same amount.</p></li>
+<li><p>The <em>print()</em> function writes the value of the argument(s) it is given. It differs from just writing the expression you want to write (as we did earlier in the calculator examples) in the way it handles multiple arguments, floating point quantities, and strings. Strings are printed without quotes, and a space is inserted between items, so you can format things nicely, like this:</p></li>
+</ul>
+<pre class="python"><code>i = 256*256
+print(&quot;The value of i is&quot;, i)</code></pre>
+<pre><code>## (&#39;The value of i is&#39;, 65536)</code></pre>
 </div>
 </div>
 

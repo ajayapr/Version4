@@ -6,10 +6,22 @@
     <description>Recent content in Home on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python 1</title>
+      <link>/post/2019/06/25/python-1/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/06/25/python-1/</guid>
+      <description>First lessons Here is how a simple code looks like. Saving variables as int (integers) or float (floating points) are shown.
+ Exponentiation: ** This operator raises the number to its left to the power of the number to its right.
+ Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right.
+  # Create a variable savings savings = 100 # Create a variable growth_multiplier growth_multiplier = 1.</description>
+    </item>
     
     <item>
       <title>Research Statement</title>
@@ -58,18 +70,6 @@ we can convert this set of equations into a single equation through matrices. Ju
       
       <guid>/post/2019/03/14/intro/</guid>
       <description>About the series I have been watching MIT Open Courseware lectures on Linear Algebra by Dr. Gilbert Strang to refresh my memory of the concepts. I had watched this series a couple of years ago while I was taking the Advanced Finite Element course at my university. At that time, I thought I had a good grasp of the concepts. However, two years of non-usage has left me completely ignorant of the core concepts of matrix operations.</description>
-    </item>
-    
-    <item>
-      <title>Python 1</title>
-      <link>/post/2019/03/03/python-1/</link>
-      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019/03/03/python-1/</guid>
-      <description>First lessons Here is how a simple code looks like. Saving variables as int (integers) or float (floating points) are shown.
- Exponentiation: ** This operator raises the number to its left to the power of the number to its right.
- Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right.
-  # Create a variable savings savings = 100 # Create a variable growth_multiplier growth_multiplier = 1.</description>
     </item>
     
     <item>
