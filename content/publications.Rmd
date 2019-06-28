@@ -3,7 +3,7 @@ title: "Publications"
 output: html_document
 ---
 
-## Articles
+## Conferences
 
 * **Jayaprakash, A.**, Nau, J., Pour-Ghaz, M., and Kowalsky, M., "Structural Consequences of Grout Deterioration in the Grouted Shear Stud Connection". _Bridge Engineering Institute_. 2019
 
