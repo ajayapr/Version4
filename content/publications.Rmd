@@ -10,4 +10,7 @@ output: html_document
 * **Jayaprakash, A.**, and Kowalsky, M., "Balance Ratio to Characterize Earthquake Loading History for Performance Based Design". _12th Canadian Conference on Earthquake Engineering_. 2019
 
 ## Reports
+
+* **Jayaprakash, A.**, Nau, J.M., Pour-Ghaz, M., Kowalsky, M.J., "Durability of the Grouted Shear Stud Connection at Low Temperatures". 4000(162), AKDOT Report, May 2019.
+
 * **Jayaprakash, A.**, Price, C., Jiang, A., Pour-Ghaz, M., Nau, J., and Kowalsky, M., "Comparison of Cylinder and Cube Strength for Typical Grouts". _Constructed Facilities Laboratory, Dept. of Civil, Construction and Environmental Engineering, NC State University_. Summary Report RD-18-01.
