@@ -50,5 +50,14 @@
  Figure 1: From a bridge in Alaska, USA  However, these kind of connections were tested in the lab a few years ago under cyclic lateral loading, i.</description>
     </item>
     
+    <item>
+      <title>Sensitivity of NLTH Analysis of MDOF Bridges to Choice of Viscous Damping Models</title>
+      <link>/projects/2017/04/27/sensitivity-of-nlth-analysis-of-mdof-bridges-to-choice-of-viscous-damping-models/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/2017/04/27/sensitivity-of-nlth-analysis-of-mdof-bridges-to-choice-of-viscous-damping-models/</guid>
+      <description>Introduction There has been a rising interest among engineers to conduct non-linear time history (NLTH) analysis as part of the seismic design procedure for bridges. A good understanding of member parameters such as strength, stiffness and damping are crucial for accurate results from NLTH analysis. Strength and stiffness in dynamic analyses are well understood but the viscous damping model that is mostly being used in commercial analysis programs, namely initial stiffness proportional Rayleigh damping, is questionable.</description>
+    </item>
+    
   </channel>
 </rss>
