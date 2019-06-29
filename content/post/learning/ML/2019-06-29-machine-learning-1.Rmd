@@ -1,0 +1,30 @@
+---
+title: Machine Learning 1
+author: Arjun Jayaprakash
+date: '2019-06-29'
+slug: machine-learning-1
+categories: []
+tags: []
+draft: TRUE
+---
+
+## Pre-notes
+
+* Three types
+    + Classification
+    + Regression
+    + Clustering
+
+* Classification
+    - Predict category of new observation
+    - Qualitative output into predefined classes
+  
+* Regression
+    - Estimate a regression function that can predict a response value from a bunch of predictors
+    - Quantitative response 
+    - Previous input to output observations should be known
+    
+* Clustering
+    - Classification but into similar clusters
+    - The clusters themselves have to be dissimilar
+  
