@@ -1,0 +1,107 @@
+---
+title: Python 2
+author: Arjun Jayaprakash
+date: '2019-06-29'
+slug: python-2
+categories:
+  - Python
+tags:
+  - Python
+  - Programming
+draft: True  
+---
+
+```{r setup, include=FALSE}
+library(reticulate)
+```
+
+# Operators and Statements
+
+## Pre-Notes
+
+* Arithmetic Operators
+    - Unary
+    - Binary
+
+* Logical Operators
+    - and, or, not
+  
+* Relational Operators
+    - \>, <, ==, != etc.
+  
+* Membership Operators
+    - in, not in
+    - Check if some value is there or not in a sequence.
+    - The sequence can be a string and you can check if certain characters are there in that string.
+  
+* Statements
+    - Conditional Statements
+    - if, else, elif
+    - Syntax
+        
+```{python eval=FALSE}
+if expression : # Notice the required ":"
+      statements    # Notice the required tab before any following statement
+elif expression :
+      statements
+else :
+      statements
+```
+
+* Loops
+    - For loop
+    - while loop
+
+* While loop    
+```{python eval=FALSE}
+while expression :
+        statements
+statement_outside_loop        
+```
+
+* For loop
+    - Used for two instances:
+        + When you want to go over item of any sequence, list or strings.
+        + When you want to repeat an action n number of times.
+        
+```{python eval=FALSE}
+# For sequence
+
+for x in sequence :
+      statements
+print("I am out of the loop")      
+
+# For repeating
+
+for x in range(1,n+1) :     # Use the range function, it creates a list of numbers
+      statements
+```
+
+* Continue and Break statements
+    - _continue_ skips the iteration, goes to next iteration.
+    - _break_ skips the whole loop, goes the statement immediately after.
+    
+* Functions
+    - use the _def_ keyword to define functions
+```{python eval=FALSE}
+def function_name (optional,parameters) :
+      statements
+      
+print("not part of the function")      
+```
+
+* Modules
+    - To import modules there are a few ways
+    
+```{python eval=FALSE}
+import module # and then
+module.function() # to use any function
+
+from module import function1, function2 # and then
+function1()
+function2() # use the functions without module.function format
+
+from module import * # To import all functions in that module
+
+
+```

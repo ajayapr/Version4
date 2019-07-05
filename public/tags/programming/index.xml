@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Arjun Jayaprakash</title>
-    <link>/categories/python/</link>
-    <description>Recent content in Python on Arjun Jayaprakash</description>
+    <title>Programming on Arjun Jayaprakash</title>
+    <link>/tags/programming/</link>
+    <description>Recent content in Programming on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,18 +18,6 @@
       
       <guid>/post/2019/06/29/python-2/</guid>
       <description>Operators and Statements Pre-Notes  Arithmetic Operators  Unary Binary  Logical Operators  and, or, not  Relational Operators  &amp;gt;, &amp;lt;, ==, != etc.  Membership Operators  in, not in Check if some value is there or not in a sequence. The sequence can be a string and you can check if certain characters are there in that string.  Statements  Conditional Statements if, else, elif Syntax   if expression : # Notice the required &amp;quot;:&amp;quot; statements # Notice the required tab before any following statement elif expression : statements else : statements  Loops  For loop while loop  While loop  while expression : statements statement_outside_loop   For loop  Used for two instances:  When you want to go over item of any sequence, list or strings.</description>
-    </item>
-    
-    <item>
-      <title>Python 1</title>
-      <link>/post/2019/06/25/python-1/</link>
-      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019/06/25/python-1/</guid>
-      <description>Data Types Here is how a simple code looks like. Saving variables as int (integers) or float (floating points) are shown.
- Exponentiation: ** This operator raises the number to its left to the power of the number to its right.
- Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right.
-  # Create a variable savings savings = 100 # Create a variable growth_multiplier growth_multiplier = 1.</description>
     </item>
     
   </channel>

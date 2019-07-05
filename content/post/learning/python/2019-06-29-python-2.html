@@ -1,0 +1,114 @@
+---
+title: Python 2
+author: Arjun Jayaprakash
+date: '2019-06-29'
+slug: python-2
+categories:
+  - Python
+tags:
+  - Python
+  - Programming
+draft: True  
+---
+
+
+
+<div id="operators-and-statements" class="section level1">
+<h1>Operators and Statements</h1>
+<div id="pre-notes" class="section level2">
+<h2>Pre-Notes</h2>
+<ul>
+<li>Arithmetic Operators
+<ul>
+<li>Unary</li>
+<li>Binary</li>
+</ul></li>
+<li>Logical Operators
+<ul>
+<li>and, or, not</li>
+</ul></li>
+<li>Relational Operators
+<ul>
+<li>&gt;, &lt;, ==, != etc.</li>
+</ul></li>
+<li>Membership Operators
+<ul>
+<li>in, not in</li>
+<li>Check if some value is there or not in a sequence.</li>
+<li>The sequence can be a string and you can check if certain characters are there in that string.</li>
+</ul></li>
+<li>Statements
+<ul>
+<li>Conditional Statements</li>
+<li>if, else, elif</li>
+<li>Syntax</li>
+</ul></li>
+</ul>
+<pre class="python"><code>if expression : # Notice the required &quot;:&quot;
+      statements    # Notice the required tab before any following statement
+elif expression :
+      statements
+else :
+      statements</code></pre>
+<ul>
+<li>Loops
+<ul>
+<li>For loop</li>
+<li>while loop</li>
+</ul></li>
+<li>While loop</li>
+</ul>
+<pre class="python"><code>while expression :
+        statements
+statement_outside_loop        </code></pre>
+<ul>
+<li>For loop
+<ul>
+<li>Used for two instances:
+<ul>
+<li>When you want to go over item of any sequence, list or strings.</li>
+<li>When you want to repeat an action n number of times.</li>
+</ul></li>
+</ul></li>
+</ul>
+<pre class="python"><code># For sequence
+
+for x in sequence :
+      statements
+print(&quot;I am out of the loop&quot;)      
+
+# For repeating
+
+for x in range(1,n+1) :     # Use the range function, it creates a list of numbers
+      statements</code></pre>
+<ul>
+<li>Continue and Break statements
+<ul>
+<li><em>continue</em> skips the iteration, goes to next iteration.</li>
+<li><em>break</em> skips the whole loop, goes the statement immediately after.</li>
+</ul></li>
+<li>Functions
+<ul>
+<li>use the <em>def</em> keyword to define functions</li>
+</ul></li>
+</ul>
+<pre class="python"><code>def function_name (optional,parameters) :
+      statements
+      
+print(&quot;not part of the function&quot;)      </code></pre>
+<ul>
+<li>Modules
+<ul>
+<li>To import modules there are a few ways</li>
+</ul></li>
+</ul>
+<pre class="python"><code>import module # and then
+module.function() # to use any function
+
+from module import function1, function2 # and then
+function1()
+function2() # use the functions without module.function format
+
+from module import * # To import all functions in that module</code></pre>
+</div>
+</div>

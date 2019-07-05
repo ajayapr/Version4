@@ -17,7 +17,7 @@
       <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/06/25/python-1/</guid>
-      <description>First lessons Here is how a simple code looks like. Saving variables as int (integers) or float (floating points) are shown.
+      <description>Data Types Here is how a simple code looks like. Saving variables as int (integers) or float (floating points) are shown.
  Exponentiation: ** This operator raises the number to its left to the power of the number to its right.
  Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right.
   # Create a variable savings savings = 100 # Create a variable growth_multiplier growth_multiplier = 1.</description>

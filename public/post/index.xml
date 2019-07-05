@@ -21,12 +21,21 @@
     </item>
     
     <item>
+      <title>Python 2</title>
+      <link>/post/2019/06/29/python-2/</link>
+      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/06/29/python-2/</guid>
+      <description>Operators and Statements Pre-Notes  Arithmetic Operators  Unary Binary  Logical Operators  and, or, not  Relational Operators  &amp;gt;, &amp;lt;, ==, != etc.  Membership Operators  in, not in Check if some value is there or not in a sequence. The sequence can be a string and you can check if certain characters are there in that string.  Statements  Conditional Statements if, else, elif Syntax   if expression : # Notice the required &amp;quot;:&amp;quot; statements # Notice the required tab before any following statement elif expression : statements else : statements  Loops  For loop while loop  While loop  while expression : statements statement_outside_loop   For loop  Used for two instances:  When you want to go over item of any sequence, list or strings.</description>
+    </item>
+    
+    <item>
       <title>Python 1</title>
       <link>/post/2019/06/25/python-1/</link>
       <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/06/25/python-1/</guid>
-      <description>First lessons Here is how a simple code looks like. Saving variables as int (integers) or float (floating points) are shown.
+      <description>Data Types Here is how a simple code looks like. Saving variables as int (integers) or float (floating points) are shown.
  Exponentiation: ** This operator raises the number to its left to the power of the number to its right.
  Modulo: %. This operator returns the remainder of the division of the number to the left by the number on its right.
   # Create a variable savings savings = 100 # Create a variable growth_multiplier growth_multiplier = 1.</description>

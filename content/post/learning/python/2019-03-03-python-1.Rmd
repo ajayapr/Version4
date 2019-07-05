@@ -15,7 +15,7 @@ draft: FALSE
 library(reticulate)
 ```
 
-# First lessons
+# Data Types
 
 Here is how a simple code looks like. Saving variables as _int_ (integers) or _float_ (floating points) are shown. 
 
