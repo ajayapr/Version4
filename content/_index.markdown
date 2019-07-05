@@ -23,6 +23,9 @@ style="max-width:30%;min-width:40px;float:right;">
  Raleigh, NC - 27606.  
  Email: ajayapr@ncsu.edu
  
+ [ResearchGate](https://www.researchgate.net/profile/Arjun_Jayaprakash)
+ [<img src="/figures/svg/researchgate.png" style="max-width:5%;min-width:10px;float:left;" alt="Linkedin profile" />](https://www.researchgate.net/profile/Arjun_Jayaprakash)
+ 
  [Linkedin](https://www.linkedin.com/in/arjun-jayaprakash-e-i-t-431632a0/)
  [<img src="/figures/svg/linkedin.svg" style="max-width:5%;min-width:10px;float:left;" alt="Linkedin profile" />](https://www.linkedin.com/in/arjun-jayaprakash-e-i-t-431632a0/)
  
