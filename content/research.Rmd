@@ -26,7 +26,7 @@ style="max-width:40%;min-width:40px;float:center;">
 <div style="text-align: justify"> The grouted shear stud (GSS) connection is a steel bridge column to cap-beam connection developed as an alternative to conventional directly welded connections. The directly welded connections have been shown to fail prematurely in a brittle fashion which is undesirable for seismic design. The GSS connection eliminates any failure at the weld interface by relocating failure on to the columns. This failure is ductile. To learn more on the long term behavior of this connection, click [here](\projects\2019\02\20\structural-consequences-in-gss)... </div>
 
 
-### [Balance Ratio to Characterize Earthquake Loading History - A Pilot Study History](\projects\2019\03\02\balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study)
+### [Opposite Ratio to Characterize Earthquake Loading History - A Pilot Study History](\projects\2019\03\02\balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study)
 
 <img src="\figures\Balanceratio_definition.png"
 style="max-width:60%;min-width:40px;float:center;">
@@ -47,7 +47,19 @@ motion intensity (3 intensities), abutment fixity conditions (2 conditions) and 
 models). The results were used to assess the sensitivity of response prediction to use of different viscous
 damping models. It was found that the responses are sensitive to the choice of damping models. To learn more, click [here](\projects\2017\04\27\sensitivity-of-nlth-analysis-of-mdof-bridges-to-choice-of-viscous-damping-models)... </div>
 
-### [Durability of Cementitious Grouts in Cold Climate](\projects\2019\03\02\durability-of-cementitious-grouts-in-cold-climate)
+### [Durability of Cementitious Grouts in Cold Climate](\files\Durability_part.pdf)
+
+<img src="\figures\Frequency_measurement.jpg"
+style="max-width:40%;min-width:40px;float:center;">
+
+<div style="text-align: justify">  The grouted shear stud (GSS) connection for steel bridge substructures was developed as a ductile alternative to directly
+welded column-to-cap-beam connections. During an earthquake, the GSS connection relocates the plastic hinge to the bridge column and eliminates brittle cracking
+at the weld region thereby providing full strength and ductility capacity. However, the grout material
+used for fabrication of the GSS connection is susceptible to damage through years of exposure, especially to extreme cold
+climates. We evaluated the durability of the grout material in cold-climates.  A
+series of experiments was performed to ascertain the durability of commonly available high-strength cementitious grouts.
+While there were grouts that exhibited good durability, inconsistencies within the material were observed. Find out more in this [article](\files\Durability_part.pdf)... </div>
+
 
 
 ## Presentations
