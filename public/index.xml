@@ -6,10 +6,20 @@
     <description>Recent content in Home on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Engineering Mechanics - Statics</title>
+      <link>/resources/courses/statics/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/courses/statics/</guid>
+      <description>Statics deals with the equilibrium of bodies, that is, those that are either at rest or move with a constant velocity. The most effective way of learning the principles of engineering mechanics is to solve as many problems as you can. Here is a generic suggestive list of the steps you take to solve problems in mechanics (Adapted from Engineering mechanics, 14th edition, Hibbeler).
+ Read the problem carefully and try to correlate the actual physical situation with the theory studied.</description>
+    </item>
     
     <item>
       <title>Machine Learning 1</title>

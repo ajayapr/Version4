@@ -11,7 +11,7 @@ Read my full teaching statement [here](\post\2019\04\08\teaching-statement).
 
 ## Courses
 
-* Statics
+* [Statics](\resources\courses\statics)
 
 ## Blog Tutorials
 
