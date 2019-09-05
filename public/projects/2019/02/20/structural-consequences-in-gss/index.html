@@ -102,7 +102,7 @@ Figure 6: Gradual drop in strength and failure at high ductility = Promising!
 <p>Despite its shining performance under cyclic lateral loading, the GSS connection has not been fully understood to be employed in actual practice.</p>
 <div id="the-grout-variable" class="section level3">
 <h3>The grout variable</h3>
-<p>High strength cementitious grouts are conventionally used as filler materials in small size applications such as reparing damaged concrete, sockets for dowell rebars, bridge keyway joints etc. One major application of this material is to level floor surfaces to install large machines on machine foundations. However, there are no studies in literature that have investigated large scale applications of cementitious grouts such as that of a GSS connection. To add to that, there are also no studies that have looked at the service life of cementitious grouts in large scale applications. In an application such as the GSS connection, the service life of the grout could be potentially critical since it provides the only load path between the column and the cap beam. Hence, more experiments are warranted before high strength grouts could be used in the GSS connection.</p>
+<p>High strength cementitious grouts are conventionally used as filler materials in small size applications such as reparing damaged concrete, sockets for dowell rebars, bridge keyway joints etc. One major application of this material is to level floor surfaces to install large machines on machine foundations. However, there are no studies in literature that have investigated large scale applications of cementitious grouts such as that in a GSS connection. To add to that, there are also no studies that have looked at the service life of cementitious grouts in large scale applications. In an application such as the GSS connection, the service life of the grout could be potentially critical since it provides the only load path between the column and the cap beam. Hence, more experiments are warranted before high strength grouts could be used in the GSS connection.</p>
 </div>
 <div id="consequences-of-deteriorated-grout" class="section level3">
 <h3>Consequences of deteriorated grout</h3>
@@ -123,6 +123,15 @@ Figure 6: Gradual drop in strength and failure at high ductility = Promising!
 </div>
 <div id="how-did-we-simulate-deterioration" class="section level2">
 <h2>How did we simulate deterioration?</h2>
+<p>Engineers have been using lightweight concrete for a few decades now. Among the many ways that you can make concrete lightweight, one is to add to it lightweight aggregates. One such aggregate is called expanded polystyrene (EPS). These are small beads with extremely low density like styrofoam as shown here:</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-7"></span>
+<img src="/projects/figures/EPS.PNG" alt="EPS beads" width="300px" />
+<p class="caption">
+Figure 7: EPS beads
+</p>
+</div>
+<p>When a part of normal weight concrete is replaced by these material, the total weight reduces. Researchers have also studied its impact on other properties of concrete as well. What they found was that adding EPS to a concrete mix not only reduces its weight, but also its compressive strength and elastic modulus. This property of EPS is interesting for us because of the following. Cold climate exposure of grout leads to grout deterioration through freeze and thaw cycles. The consequence is a reduction in the grout compressive strength and elastic modulus. So the idea then became, why not use EPS to induce in our grout, a large reduction in both elastic modulus and compressive strength, thereby simulating multiple years of service life.</p>
+<p>Now you may ask, well don’t freeze and thaw cycles cause deterioration of grout in a completely different manner compared to adding EPS beads? This is true at a micro scale. Cracking in the grout due to freeze and thaw damage look nothing like a bunch of EPS beads being present in it. However, we are more interested at a macro scale. The question that we are trying to answer is that at the structural level, does the reduction in compressive strength and elastic modulus, or in other words deterioration, of the grout in the GSS connection cause a worse structural performance under lateral loading. Hence we proceeded with this approach.</p>
 </div>
 </div>
 
