@@ -26,7 +26,7 @@ style="max-width:40%;min-width:40px;float:center;">
 <div style="text-align: justify"> The grouted shear stud (GSS) connection is a steel bridge column to cap-beam connection developed as an alternative to conventional directly welded connections. The directly welded connections have been shown to fail prematurely in a brittle fashion which is undesirable for seismic design. The GSS connection eliminates any failure at the weld interface by relocating failure on to the columns. This failure is ductile. To learn more on the long term behavior of this connection, click [here](\projects\2019\02\20\structural-consequences-in-gss)... </div>
 
 
-### [Opposite Ratio to Characterize Earthquake Loading History - A Pilot Study History](\projects\2019\03\02\balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study)
+### [Characterizing Earthquake Loading History - A Pilot Study History](\projects\2019\03\02\balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study)
 
 <img src="\figures\Balanceratio_definition.png"
 style="max-width:60%;min-width:40px;float:center;">
