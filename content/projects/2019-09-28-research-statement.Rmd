@@ -1,0 +1,166 @@
+---
+title: Research Statement
+author: Arjun Jayaprakash
+date: '2019-09-28'
+slug: research-statement
+categories: []
+tags: []
+---
+
+<div style="text-align: justify">My research interests fall within the broad area of performance-based seismic design and assessment (PBSE). A major advantage of performance-based principles is the capability to map conventional
+structural limit states on to clear decision variables such as economic losses or savings. For example, while
+designing a new multi-storey building, it is now possible for an engineer to quantify and communicate the
+probability of incurring a certain amount of monetary loss in a given period of time or under a specific natural
+hazard. Furthermore, it is also possible to estimate additional cost that may be spent upfront to realize
+economic savings during the lifetime of the structure, when accounting for future hazard scenarios. PBSE
+offers high flexibility in making scientifically informed decisions regarding the development and maintenance
+of our infrastructure. 
+
+My research goal is to develop solutions in two complementary aspects of performance-based engineering.
+First, is the development of resilient and cost-effective lateral load resisting structural systems and
+hazard mitigation strategies for new and existing infrastructure portfolios by using the method of large-scale
+experimental testing and numerical modeling. Second, is robust characterization of seismic hazard and
+capacity models for efficient and accurate application of PBSE by using probability theory and statistical
+learning algorithms. Each focus of my research is elaborated next within the context of my past research
+and expertise.
+
+### Large-scale Testing and Numerical Modeling of Innovative Structural Systems for Hazard Mitigation
+
+My doctoral work was focused on performing small and large-scale experiments to assess the longevity of a
+steel bridge connection called the grouted shear stud (GSS) connection. The GSS connection was developed
+as a ductile alternative to directly welded column-to-cap-beam connections. During a large earthquake, the
+GSS connection can relocate damage to the bridge column, eliminate brittle cracking at the weld region,
+and thus mobilize the full strength and ductility capacity of the lateral load resisting columns. However, the
+grout, which is an integral part of the GSS connection, is susceptible to depletion of its elastic modulus and
+compressive strength. As there were no previous studies that investigated the impact of grout depletion
+on the structural performance of the connection, I performed multiple experiments at the material and
+structural level to assess this impact.
+
+At the material level, I performed a large number of small-scale tests on many different grout mixtures
+to discern the range of grout mechanical properties that can be expected in real-world applications. The
+materials I tested varied between very-high strength grouts (10−12 ksi) to normal strength concrete (4−6 ksi)
+at different water contents. I tested the compressive strength, elastic modulus, freeze and thaw vulnerability,
+free shrinkage, and restrained shrinkage cracking potential of these grout mixtures. The durability tests were
+performed in one large and two small environmental chambers (Figures 1,2, and 3) which can simulate temperatures as
+low as −40°C, at the Constructed Facilities Laboratory (CFL) in the Centennial Campus of North Carolina
+State University, Raleigh. I found that grout mechanical properties in the GSS connection can be lower
+than expected if 1) the quality control of construction does not meet good standards, or 2) the connection
+is exposed to a large number of freeze-thaw cycles.
+
+```{r, out.width="300px", fig.cap="Walk-in Thermotron environmental chamber", fig.align='center', echo=FALSE}
+knitr::include_graphics("/projects/figures/EnvChamber.jpg")
+```
+
+```{r, out.width="300px", fig.cap="Grout rings inside the Thermotron chamber", fig.align='center', echo=FALSE}
+knitr::include_graphics("/projects/figures/Ringtest_setup.jpg")
+```
+
+```{r, out.width="300px", fig.cap="Small-scale Darwin chambers", fig.align='center', echo=FALSE}
+knitr::include_graphics("/projects/figures/FT_setup.jpeg")
+```
+
+Subsequently, I used the results from small-scale tests to design and perform large-scale structural tests
+on bridge piers to assess the sensitivity of this structural system to depletion of grout properties. The test specimens were two-column steel bents, as shown in Figure 4. The columns were 12ft long hollow-circular
+pipes fabricated using API 5L X52 PSL2 steel material with cross-section dimensions 16in × 0.50in. The
+height of the center of the cap beam from the pin was 11ft−2in, and the center-to-center distance between
+the two columns was 12ft. A 440 − kip actuator mounted on the laboratory strong wall was used to apply
+cyclic quasi-static lateral loading. Response data acquisition was performed using strategically placed fields
+of optical sensors which can monitor structural strains and 3-D displacements in real-time. I compared
+the structural response of many such bridge piers that had connections with standard and depleted grout
+mechanical properties. Grout depletion in these tests were simulated by the addition of lightweight synthetic
+aggregates. I established that the depletion in grout properties does not significantly alter the structural
+performance of this type of bridge systems. A close-up of one of the connections with depleted grout is
+shown in Figure 4 on the top-left corner. The ductile failure mode of plastic hinging was achieved regardless
+of grout properties, which is also evident from the large strains just below the connection, as seen on the
+adjacent graph. Currently, I am developing structural limit state models for displacement-based design of
+steel bridge substructures with the GSS connection.
+
+```{r, out.width="600px", fig.cap="Bridge pier specimen during one of my large scale tests. Despite using depleted grout, the plastic hinge successfully forms below the connection", fig.align='center', echo=FALSE}
+knitr::include_graphics("/projects/figures/GSS.png")
+```
+
+I was invited to share my work at a research workshop organized by the Alaska Department of Transportation
+and Public Facilities (AKDOT). The attendees included AKDOT bridge engineers, AKDOT interns,
+and graduate students. The scope of the GSS connection is currently being extended to other structural
+systems such as reinforced concrete (RC) and reinforced concrete-filled steel tube (RCFST) columns by my
+peers at NCSU. I was involved in the preparation of the research proposal for the same.
+
+The multi-disciplinary aspect of this research has provided me with the opportunity to simultaneously
+work with three professors at NCSU with different expertise, Dr. James Nau, Dr. Mohammad Pour-Ghaz,
+and Dr. Mervyn Kowalsky. As a new faculty, I will draw on my laboratory experience in large-scale
+structural tests, small-scale material tests, and numerical modeling for exploring my interest of developing
+innovative structural systems for resilient infrastructure. New structural systems must go through rigorous
+testing before they can be deployed. I am interested in performing experiments on innovative structural
+steel and reinforced concrete systems to develop accurate performance limit state models for displacementbased
+design. Through numerical modeling in combination with statistical parametric studies, I will then
+generalize these models for design.
+
+### Demand and Capacity Models for Infrastructure Resilience
+
+A second aspect of my research was the development of a useful characterization of earthquake hazard for
+performance-based design of bridges, under guidance from Dr. Mervyn Kowalsky. In a paper, I propose
+a demand parameter termed as the opposite peak ratio ($R_{op}$) that captures the out-of-balance nature of
+seismic response of structures. $R_{op}$ is defined as the ratio of the magnitude of peak displacements on either
+side of the initial position of a single-degree-of-freedom (SDOF) oscillator under a ground motion input.
+This out-of-balance nature of response peaks has a significant impact on at least two important performance limit states for reinforced concrete bridge columns. These limit states are residual drift and reinforcement
+bar-buckling. I discovered that larger residual drifts are more likely with smaller $R_{op}$ while reinforcement
+bar-buckling is likely initiated earlier under larger $R_{op}$. I studied a large dataset of ground motions (1554
+GMs) to obtain further insight into this imbalance in structural response. Subsequently, I used probabilistic
+methods to develop a predictive model for $R_{op}$ for SDOF structures as a function of their period (T), design
+ductility ($\mu_{\Delta}$), and non-linear hysteresis model. While performing this study, I:
+
+* modeled frame-based and fiber-based elements in Ruaumoko3D and OpenSees platforms to perform
+non-linear dynamic analyses;
+* learned and employed statistical modeling techniques of regression, classification, model selection and
+validation;
+* wrote analysis codes in MATLAB, R, and Python; and
+* used NHERI’s cloud platform, DesignSafe, for computation and data storage.
+
+The probabilistic theory and tools I learned and employed for this study have given me a foundation
+to continue developing better seismic hazard models and to extend my scope of work to multi-hazard
+scenarios such as combinations of extreme wind events and flood, or earthquake and fire. With the advent
+of sweeping climate-change, the likelihood of extreme natural hazards is rising steadily. This increase has
+triggered a push for better resilience for our infrastructure. For new and improved materials, and structural
+systems, refined performance limit state models will be necessary. Consequently, these limit state models
+will necessitate continuous adaptation of hazard models. My objective will be to tackle these issues by
+analyzing data obtained from past hazards and structural experiments using statistical learning techniques.
+
+### Research Plan
+
+I am interested to continue my current work on large-scale testing of improved structural designs for bridge
+substructures and develop novel lateral load resisting systems in structural steel, reinforced and pre-stressed
+concrete. I want to also explore new materials to perform research aimed at achieving infrastructure resilience
+by reducing rehabilitation cost and time. These include materials with better energy dissipation or selfcentering
+capabilities such as shape-memory alloys.
+
+I am also interested to add new dimensions to my research. An area that I want to start exploring
+immediately is the use of learning algorithms to solve issues faced by structural engineers. Our experimental
+database has multiplied over the last few decades. So has our collection of field reconnaissance data postearthquakes.
+By utilizing supervised and unsupervised learning algorithms on this rich data, it is possible
+to arrive at conclusions regarding vulnerabilities of our infrastructure portfolio.
+
+My long-term career goal is to impart our structures with smart learning capabilities. I believe that
+real-time hazard recognition with the help of learning algorithms and active damage avoidance by changing
+the structural dynamics of systems are exciting fields of potential exploration. For example, my concept for
+behavior of a futuristic bridge under a large earthquake is the structure recognizing the hazard and actively
+changing its dynamic properties to avoid damage. Similar technologies are already being developed in the
+automobile industry. However, in civil engineering, a major challenge will be to overcome issues related to
+the scale and cost of a project.
+
+I do recognize that there will be funding and implementation challenges along the way. During my
+time at NCSU, I have had opportunities to become involved in brainstorming sessions and submission of
+research proposals. Consequently, I have gained an appreciation of the challenges such as the importance of
+regularly publishing work in high-impact academic journals, successfully leading a research team of Doctoral
+and Masters students, raising funds from a variety of government and non-government sources, developing
+innovative and cost-effective solutions to experimentation, and working with limited resources to achieve the
+best possible result.
+
+While the National Science Foundation’s (NSF) Directorate for Engineering (ENG) provides funding
+opportunities for research on resilient and sustainable infrastructure through its division of Civil, Mechanical,
+and Manufacturing Innovation (CMMI), I will also look for collaborative opportunities to apply
+for funding from NSF’s cross-cutting programs such as those between the Directorate for Engineering and
+the Directorate for Social, Behavior, and Economic Sciences (SBE). Federal Emergency Management Agency
+(FEMA) and United States Geological Survey (USGS) are potential sources of funding for my research in the
+area of hazard characterization. I also envision funding from state and federal departments of transportation
+for my focus on innovative bridge systems.
+</div>

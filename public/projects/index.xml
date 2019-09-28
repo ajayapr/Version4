@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research Statement</title>
+      <link>/projects/2019/09/28/research-statement/</link>
+      <pubDate>Sat, 28 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/2019/09/28/research-statement/</guid>
+      <description>My research interests fall within the broad area of performance-based seismic design and assessment (PBSE). A major advantage of performance-based principles is the capability to map conventional structural limit states on to clear decision variables such as economic losses or savings. For example, while designing a new multi-storey building, it is now possible for an engineer to quantify and communicate the probability of incurring a certain amount of monetary loss in a given period of time or under a specific natural hazard.</description>
+    </item>
     
     <item>
       <title>Research Statement</title>

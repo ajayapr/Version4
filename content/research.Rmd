@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <img src="\pictures\Action_pic1.JPG"
 style="max-width:70%;min-width:40px;float:center;">
 
-Read my full research statement [here](\projects\2019\04\08\research-statement).
+Read my full research statement [here](\projects\2019\09\28\research-statement).
 
 ## Projects
 
