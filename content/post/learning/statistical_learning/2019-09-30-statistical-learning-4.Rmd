@@ -1,0 +1,126 @@
+---
+title: Statistical Learning 4
+author: Arjun Jayaprakash
+date: '2019-09-30'
+slug: statistical-learning-4
+categories:
+  - Mathematics
+  - R
+  - Statistics
+tags:
+  - Basic R
+  - Learning
+  - Rstudio
+  - Statistical Approach
+---
+
+# Classification
+
+Response is not quantitative but are qualitative. Qualitative variables take values in an unordered set $\mathcal{C}$, such as
+
+\[
+eye\,color\in \{brown,green,blue\}\\
+email \in \{spam,ham\}
+\]
+
+Given a feature vector $X$ and a qualitative response $Y$ taking values in the set $\mathcal{C}$, the classification task is to build a function $C(X)$ that takes as input the feature vector $X$ and predicts its value for $Y$, i.e., $C(X) \in \mathcal{C}$. Often we are more interested in estimating the _probabilities_ that $X$ belongs to each category in $\mathcal{C}$.
+
+## Logistic Regression
+
+Logistic regression is used to predict the probability of observing either one or the other mutually exclusive result based on a given input variable. Let's write $p(X) = P(Y=1|X)$ for short and consider using one variable to predict the probability. Logistic regression uses the form:
+
+\[
+p(X) = \dfrac{e^{\beta_0 + \beta_1X}}{1+e^{\beta_0+\beta_1X}}
+\]
+
+The value of $p(X)$ always lies between 0 and 1. This is basically a transformation of a linear model to guarantee that we get a probability. This is done by the _logit_ transformation:
+
+\[
+log\left(\dfrac{p(X)}{1-p(X)} \right) = \beta_0 + \beta_1X
+\]
+
+We can use the maximum likelihood to estimate this model from a given data.
+
+\[
+\mathcal{L}(\beta_0,\beta) = \prod_{i:y_i=1}p(x_i)\prod_{i:y_i=0}(1-p(x_i))
+\]
+
+This _likelihood_($\mathcal{L}$) gives the probability of the observed zeros and ones in the data. We pick $\beta_0$ and $\beta_1$ to maximize the likelihood of the observed data.
+
+Most statistical packages can fit linear logistic regression models by maximum likelihood. In R we can use the _glm_ function. This would give us the $\hat \beta_0$ and $\hat \beta_1$ that best fit our data. Once we have the parameters, we can predict the probability of observing the response for any observed predictor.
+
+### Mutlivariate Logistic Regression
+
+Logistic regression models with multiple predictor variables look like:
+
+\[
+log \left( \dfrac{p(X)}{1-p(X)} \right) = \beta_0 + \beta_1X_1 + ... + \beta_pX_p\\
+p(X) = \dfrac{e^{\beta_0 + \beta_1X_1 + ... + \beta_pX_p}}{1+e^{\beta_0 + \beta_1X_1 + ... + \beta_pX_p}}
+\]
+
+What one has to be careful about in doing multiple variable regression is the counfounding effect of correlated predictors. Remember no causality can be claimed for observational data. Causality can only be inferred if we set up an experiment to investigate causality.
+
+### Logistic regression with more than two classes as response
+
+So far we have discussed logistic regression with two classes. It is easily generalized to more than two classes. One version (used in the R package _glmnet_) has the symmetric form 
+
+\[
+P(Y=k|X) =  \dfrac{e^{\beta_{0k}+\beta_{1k}X_1+...+\beta_{pk}X_p}}{\sum_{l=1}^Ke^{\beta_{0l}+\beta_{1l}X_1+...+\beta_{pl}X_p}}
+\]
+
+This is also referred to as _multinomial regression_.
+
+
+## Discriminant Analysis
+
+This is a different approach to classification. Here, the approach is to model the distribution of $X$ in each of the classes separately, and then use _Bayes theorem_ to flip things around and obtain $P(Y|X)$. When we use normal distributions for each class, this leads to linear or quadratic discriminant analysis. However, this approach is quite general, and other distributions can be used as well.
+
+Bayes theorem:
+
+\[
+P(Y=k|X=x) = \dfrac{P(X=x|Y=k)P(Y=k)}{P(X=x)}
+\]
+
+One writes this slightly differently for discriminant analysis:
+
+\[
+P(Y=k|X=x) = \dfrac{\pi_kf_k(x)}{\sum_{l=1}^K\pi_lf_l(x)}
+\]
+
+where, $f_k(x) = P(X=x|Y=k)$ is the _density_ for $X$ in class k. In other words this is the likelihood of observing $X=x$ assuming $Y=k$ is the true result. Also, $\pi_k = P(Y=k)$ is the marginal or _prior_ probability for class $k$.
+
+Why use discriminant analysis?
+
+* When the classes are well-separated, the parameter estimates for the logistic regression model are surprisingly unstable. Linear discriminant analysis does not suffer from this problem.
+
+* If $n$ is small and the distribution of the predictors $X$ is approximately normal in each of the classes, the linear discriminant model is again more stable than the logistic regression model.
+
+* Linear discriminant analysis is popular when we have more than two response classes, because it also provides low-dimensional views of the data.
+
+### Linear Discriminant Analysis when $p$ = 1
+
+Density function for Gaussian (normal) distribution is:
+
+\[
+f_k(x) = \dfrac{1}{\sqrt{2\pi}\sigma_k}e^{-\frac{1}{2}\left( \frac{x-\mu_k}{\sigma_k}\right)^2}
+\]
+where $\mu_k$ is the mean, and $\sigma_k^2$ is the variance (in class $k$). Teh assumption here is that all the $\sigma_k = \sigma$ are the same.
+
+When we plug this in the _Bayes theorem_ we get a formula for $p_k(x)$. To classify at the value of $X=x$, we need to see which of the $p_k(x)$ is largest. Taking logs, and discarding terms that do not depend on $k$, we see that this is equivalent to assigning $x$ to the class with the largest _discriminant score_.
+
+\[
+\delta_k(x) = x\dfrac{\mu_k}{\sigma^2}- \dfrac{\mu_k^2}{2\sigma^2} + log(\pi_k)
+\]
+
+This $\delta_k(x)$ is a linear function of $x$.
+
+When there are more than one predictors, $p \gt 1$, the density functions involved in discriminant analysis are joint densities. The math gets complicated here as we include covariance matrices in the expressions to get the discriminant score.
+
+What is great is that it turns out that the discriminant scores can be turned into probabilities pretty easily.
+
+\[
+\hat P(Y=k|X=x) = \dfrac{e^{\hat \delta_k(x)}}{\sum_{l=1}^K e^{\delta_l(x)}}
+\]
+
+So classifying to the largest score amounts to classifying to the class for which the probability is the largest.
+

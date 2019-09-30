@@ -1,0 +1,140 @@
+---
+title: Statistical Learning 3
+author: Arjun Jayaprakash
+date: '2019-09-30'
+slug: statistical-learning-3
+categories:
+  - Mathematics
+  - R
+  - Statistics
+tags:
+  - Basic R
+  - Programming
+  - R
+  - Rstudio
+  - Statistical Approach
+---
+
+# R Session: Linear Regression
+
+### One variable
+First we need to load some libraries to access some datasets that we will be using.
+
+```{r}
+library(MASS)
+library(ISLR)
+```
+
+One of the datsets is the Boston data:
+
+```{r}
+names(Boston)
+```
+
+These are housing values for the suburbs of Boston. "medv" is the median value of owner occupied houses in Boston, while "lstat" is the lower status of the population in percentage. If we plot "medv" and "lstat", we get the following plot.
+
+```{r}
+plot(medv~lstat, Boston)
+```
+
+As the lower status in the region increases, we see a drop in the median housing values. If we fit a linear model to this model,
+
+```{r}
+fit1 <- lm(medv~lstat, data = Boston)
+fit1
+```
+We see that the coefficient for slope is negative. To get a more detailed view of the model we can use the _summary_ command.
+
+```{r}
+summary(fit1)
+```
+
+To plot this linear model on to the plot, use thie following command:
+
+```{r}
+plot(medv~lstat, Boston)
+abline(fit1, col = "red")
+```
+
+To find the confidence intervals for the coefficients of the linear model:
+
+```{r}
+confint(fit1)
+```
+
+Notice how the confidence interval for "lstat" or the slope does not contain 0. This means that we reject the null hypothesis that there is no relationship between the variables. we say, there is some relationship. This is the 95% confidence interval.
+
+We can predict the value of the response variable at any point along the predictor variable axis. This can be done by using _predict_. We can also ask R to give the confidence intervals for these predictions.
+
+```{r}
+predict(fit1, data.frame(lstat=c(5,10,15)), interval = "confidence")
+```
+
+### Multiple Linear Regression
+
+We can use the same commands to fit using multiple predictors.
+
+```{r}
+fit2 = lm(medv~lstat+age, data = Boston)
+summary(fit2)
+
+fit3 = lm(medv~., data = Boston)
+summary(fit3)
+```
+
+Here fit2 is the model using 2 predictors "lstat" and "age". "age" is the proportion of owner occupied units built prior to 1940 in each region. fit3 is the model using every other variable in the dataset as predictors. 
+
+Notice how in fit2, "age" is a significant predictor but in fit3, "age" is no longer significant (check p-values). What that means is there are lot of other predictors that are correlated with "age" in whose presence, it is no longer significant.
+
+We can plot the results of fit3. R normally gives us four different plots when we do this all of which are useful in determining the accuracy of the model.
+
+```{r}
+par(mfrow = c(2,2))
+plot(fit3)
+```
+
+
+The first plot gives us a look at the residuals versus the fitted values. We can check for non-linearities in this figure. By the curve in the red line we can see that the residuals are not capturing the values well. There is some non-linearity.
+
+The second plot tells us whether our assumption of normal distribution of the residuals is correct or not.
+
+The third plot is the square root of the standardized residuals versus the fitted values. This gives us an idea of whether the variance changes with the mean or the fit. This is called heteroscedasticity. .
+
+If we find that some variables are not significant predictors, we can remove these variables from the fitted model using the _update_ command. Here we remove "age" and "indus" from the fitted model. Nothing on the left side of the "~" means we use the same response. We can use minus sign to remove the required variables.
+
+```{r}
+fit4 = update(fit3, ~.-age-indus)
+summary(fit4)
+```
+
+Now everything in the model are somewhat significant.
+
+### Non-linearities and interactions
+
+Interactiosn between two of the predictors can be included in the model by using an asterisk (*) symbol in the command:
+
+```{r}
+fit5 = lm(medv~lstat*age, data = Boston)
+summary(fit5)
+```
+This command includes the variables by themselves as well as the interaction term between the variables in the model. While the main effect of "age" by itself is not significant here, the interaction is somewhat significant.
+
+Now, to include a quadratic term in the linear regression model, we have to protect the quadratic term with an "I" which stands for identity. 
+
+```{r}
+fit6 = lm(medv~lstat + I(lstat^2), data = Boston); summary(fit6)
+```
+
+```{r}
+par(mfrow=c(1,1))
+plot(medv~lstat, data = Boston)
+points(Boston$lstat, fitted(fit6), col = "red", pch = 20)
+```
+
+Now, what if we fit a polynomial function of degree 4 of the "lstat" variable. You can see how this is trying to overfit the data.
+
+```{r}
+fit7 = lm(Boston$medv~poly(Boston$lstat,4))
+plot(medv~lstat, data = Boston)
+points(Boston$lstat, fitted(fit7), col = "blue", pch = 20)
+```

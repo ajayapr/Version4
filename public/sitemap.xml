@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2019/09/30/contents-statistical-learning/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/09/30/statistical-learning/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/09/30/statistical-learning-2/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/09/30/statistical-learning-3/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019/09/30/statistical-learning-4/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2019/09/30/teaching-statement/</loc>
     <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
@@ -83,7 +108,7 @@
   
   <url>
     <loc>/tags/basic-r/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -117,7 +142,7 @@
   
   <url>
     <loc>/tags/learning/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,7 +164,7 @@
   
   <url>
     <loc>/categories/mathematics/</loc>
-    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,7 +182,7 @@
   
   <url>
     <loc>/tags/programming/</loc>
-    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -178,26 +203,26 @@
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
-    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/python/</loc>
     <lastmod>2019-06-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+    <loc>/tags/python/</loc>
+    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -225,7 +250,7 @@
   
   <url>
     <loc>/tags/rstudio/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -243,7 +268,13 @@
   
   <url>
     <loc>/tags/statistical-approach/</loc>
-    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/statistics/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -255,7 +286,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

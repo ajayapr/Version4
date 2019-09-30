@@ -12,6 +12,59 @@
     
     
     <item>
+      <title>Contents Statistical Learning </title>
+      <link>/post/2019/09/30/contents-statistical-learning/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/30/contents-statistical-learning/</guid>
+      <description> Parts  Intro to Regression Simple Linear Regression R-session: Regression Classification   </description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning</title>
+      <link>/post/2019/09/30/statistical-learning/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/30/statistical-learning/</guid>
+      <description>Introduction to Regression Models The idea is obtain a prediction model for a response variable, for instance, sales of a particular item, as a function of the advertising cost for TV, newspaper, and radio. This is to make a decision on how to better spend your money if you are trying to sell something.
+In other words, we are finding a function \(f(X)\), \(X\) is a vector with multiple variables \((X_1, X_2, X_3 .</description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning 2</title>
+      <link>/post/2019/09/30/statistical-learning-2/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/30/statistical-learning-2/</guid>
+      <description>Simple Linear Regression Linear regression is a simple approach to supervised learning. It assumes that the dependence of \(Y\) on \(X_1, X_2, ... X_p\) is linear. These are extremely useful even though they are simple.
+The idea is to assume a simple linear model,
+\[ Y = \beta_0 + \beta_1 X + \epsilon \]
+where \(\beta_0\) and \(\beta_1\) are the intercept and the slope of the model. \(\epsilon\) is the error in prediction.</description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning 3</title>
+      <link>/post/2019/09/30/statistical-learning-3/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/30/statistical-learning-3/</guid>
+      <description>R Session: Linear Regression One variable First we need to load some libraries to access some datasets that we will be using.
+library(MASS) library(ISLR) One of the datsets is the Boston data:
+names(Boston) ## [1] &amp;quot;crim&amp;quot; &amp;quot;zn&amp;quot; &amp;quot;indus&amp;quot; &amp;quot;chas&amp;quot; &amp;quot;nox&amp;quot; &amp;quot;rm&amp;quot; &amp;quot;age&amp;quot; ## [8] &amp;quot;dis&amp;quot; &amp;quot;rad&amp;quot; &amp;quot;tax&amp;quot; &amp;quot;ptratio&amp;quot; &amp;quot;black&amp;quot; &amp;quot;lstat&amp;quot; &amp;quot;medv&amp;quot; These are housing values for the suburbs of Boston. “medv” is the median value of owner occupied houses in Boston, while “lstat” is the lower status of the population in percentage.</description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning 4</title>
+      <link>/post/2019/09/30/statistical-learning-4/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/30/statistical-learning-4/</guid>
+      <description>Classification Response is not quantitative but are qualitative. Qualitative variables take values in an unordered set \(\mathcal{C}\), such as
+\[ eye\,color\in \{brown,green,blue\}\\ email \in \{spam,ham\} \]
+Given a feature vector \(X\) and a qualitative response \(Y\) taking values in the set \(\mathcal{C}\), the classification task is to build a function \(C(X)\) that takes as input the feature vector \(X\) and predicts its value for \(Y\), i.e., \(C(X) \in \mathcal{C}\). Often we are more interested in estimating the probabilities that \(X\) belongs to each category in \(\mathcal{C}\).</description>
+    </item>
+    
+    <item>
       <title>Teaching Statement</title>
       <link>/post/2019/09/30/teaching-statement/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
@@ -203,7 +256,7 @@ Projects Structural Consequences of the Grouted Shear Stud Connection The groute
       
       <guid>/teaching/</guid>
       <description> Read my full teaching statement here.
-Courses  Statics   Blog Tutorials  R for Engineers I   Learning Series  Python Linear Algebra   Q &amp;amp; A  Recommendations Online Learning Portals  MIT Open Courseware EdX DataCamp    </description>
+Courses  Statics   Blog Tutorials  R for Engineers I   Learning Series  Python Linear Algebra Statistical Learning   Q &amp;amp; A  Recommendations Online Learning Portals  MIT Open Courseware EdX DataCamp    </description>
     </item>
     
   </channel>

@@ -1,0 +1,118 @@
+---
+title: Statistical Learning 2
+author: Arjun Jayaprakash
+date: '2019-09-30'
+slug: statistical-learning-2
+categories:
+  - Mathematics
+  - R
+  - Statistics
+tags:
+  - Basic R
+  - R
+  - Rstudio
+  - Statistical Approach
+---
+
+
+
+<div id="simple-linear-regression" class="section level1">
+<h1>Simple Linear Regression</h1>
+<p>Linear regression is a simple approach to supervised learning. It assumes that the dependence of <span class="math inline">\(Y\)</span> on <span class="math inline">\(X_1, X_2, ... X_p\)</span> is linear. These are extremely useful even though they are simple.</p>
+<p>The idea is to assume a simple linear model,</p>
+<p><span class="math display">\[
+Y = \beta_0 + \beta_1 X + \epsilon
+\]</span></p>
+<p>where <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span> are the intercept and the slope of the model. <span class="math inline">\(\epsilon\)</span> is the error in prediction. If we know some estimate of each of these parameters, we are able to predict what a future realization of <span class="math inline">\(Y\)</span> can be.</p>
+<p>These parameters are commonly estimated by minimizing what is known as the residual sum of squares (RSS). The <em>i</em> th residual (<span class="math inline">\(e_i\)</span>) is the difference between the <em>i</em> th observation and the predicted <em>i</em> th observation, <span class="math inline">\(e_i = y_i - \hat y_i\)</span>. Then, RSS is given by,</p>
+<p><span class="math display">\[
+RSS = e_1^2 + e_2^2 + ... + e_n^2
+\]</span></p>
+<p>There is a unique line with intercept, <span class="math inline">\(\beta_0\)</span> and slope, <span class="math inline">\(\beta_1\)</span> that has the least value of RSS for a given data. This can be calculated by optimization to be,</p>
+<p><span class="math display">\[
+\hat \beta_1 = \dfrac {\sum_{i=1}^n (x_i - \bar x)(y_i - \bar y)}{\sum_{i=1}^n (x_i - \bar x)^2}
+\]</span></p>
+<p><span class="math display">\[
+\hat \beta_0 = \bar y - \hat \beta_1 \bar x_1
+\]</span></p>
+<p>where <span class="math display">\[
+\bar y = \frac{1}{n} \sum_{i=1}^n y_i; \,\,\, \bar x = \frac{1}{n} \sum_{i=1}^n x_i
+\]</span></p>
+<p>these are sample means.</p>
+<p>The standard error of an estimator reflects how it varies under repeated sampling. We have</p>
+<p><span class="math display">\[
+SE(\hat \beta_1)^2 = \dfrac{\sigma^2}{\sum_{i=1}^n (x_i - \bar x)^2}, \,\,\, SE(\hat \beta_0)^2 = \sigma^2 \left[ \dfrac{1}{n} + \dfrac{\bar x^2}{\sum_{i=1}^n (x_i - \bar x)^2} \right]
+\]</span> where <span class="math inline">\(\sigma^2 = Var(\epsilon)\)</span>.</p>
+<p>Think about the standard error of the slope. The <span class="math inline">\(SE\)</span> is bigger if the variance of the noise is bigger. This makes sense, the larger noise, the less confident we are of the estimate. The denominator is the spread of the <span class="math inline">\(x\)</span> values around its mean. This means if we have large spread, we are covering more “ground”. Hence we have a larger confidence. The more spread out our datapoints are, the more we have our slope pinned down.</p>
+<p>Consequently, the standard errors can be used to compute <em>confidence intervals</em>.</p>
+<p><span class="math display">\[
+\hat \beta_1 \pm 2 \times SE(\hat \beta_1)
+\]</span></p>
+<p>A closely related idea is <em>hypothesis testing</em> . The most common hypothesis test involves testing teh <em>null hypothesis</em> of</p>
+<p><span class="math inline">\(H_0\)</span>: There is no relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> versus the <em>alternative hypothesis</em></p>
+<p><span class="math inline">\(H_A\)</span>: There is some relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>.</p>
+<p>A typical hypothesis test can also be regarding the slope of linear regression line. Here</p>
+<p><span class="math inline">\(H_0: \beta_1 = 0\)</span></p>
+<p><span class="math inline">\(H_A: \beta_1 \neq 0\)</span></p>
+<p>To test the null hypothesis, we can compute a <em>t-statistic</em>, given by</p>
+<p><span class="math display">\[
+t = \dfrac{\hat \beta_1 - 0}{SE(\hat \beta_1)}
+\]</span></p>
+<p>This statistic will have a t-distribution with n-2 degrees of freedom, under the null hypothesis <span class="math inline">\(\beta_1 = 0\)</span>. Any statistical software can calculate the probability of observing any value equal to <span class="math inline">\(|t|\)</span> or larger. This probability is the <em>p-value</em>. If the p-value is extremely low, we reject the null hypothesis.</p>
+<p>The overall accuracy of the model for the any given data can be identified by using what is known as the <span class="math inline">\(R^2\)</span> value.</p>
+<p><span class="math display">\[
+R^2 = \dfrac{TSS-RSS}{TSS}=1 - \dfrac{RSS}{TSS}
+\]</span></p>
+<p>where TSS is the <em>total sum of squares</em> of <span class="math inline">\(y\)</span> observations around its sample mean and RSS is the <em>residual sum of squares</em> discussed earlier.</p>
+<div id="multiple-linear-regression" class="section level2">
+<h2>Multiple Linear Regression</h2>
+<p>Here we try to predict the impact of multiple predictors on a response variable. The model looks like:</p>
+<p><span class="math display">\[
+Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_pX_p + \epsilon
+\]</span></p>
+<p>Here we interpret <span class="math inline">\(\beta_j\)</span> as the average effect on Y of a one unit increase in <span class="math inline">\(X_j\)</span>, holding all other predictors fixed. This model is an equation of a hyper-plane. For two predictors it looks like a plane surface. It is difficult to visualize this for multiple predictors.</p>
+<p>Claims of causality should be avoided for observational data.</p>
+<p>“Essentially all models are wrong, but some are useful.” - George Box</p>
+<p>Here are some important questions to keep in mind when doing multiple regression:</p>
+<ul>
+<li>Is at least one of the predictors <span class="math inline">\(X_1,X_2,...,X_p\)</span> useful in predicting the response?</li>
+<li>Do all the predictors help to explain Y, or is only a subset of predictors useful?</li>
+<li>How well does the model fit the data?</li>
+<li>Given a set of predictor values, what response value should we predict, and how accurate is our prediction?</li>
+</ul>
+<p>For the first question, we can use the F-statistic</p>
+<p><span class="math display">\[
+F = \dfrac{(TSS-RSS)/p}{RSS/(n-p-1)} \sim F_{p,n-p-1}
+\]</span></p>
+<p>Follows the F-distribution with parameters p and n-p-1. p is the nnumer of parameters we fit and n is the sample size. A very low p-value of the F-statistic tells that there is a strong effect of the predictors.</p>
+<p>To decide whether all or few variables are important, the most direct approach is called <em>all subsets</em> or <em>best subsets</em> regression: we compute the least squares fit for all possible subsets and then choose between them based on some criterion that balances training error with model size. But often, this is impossible as you have a lot of variables. We can use automated approaches to search through the model space.</p>
+<p>In <strong>Forward Selection</strong>, you start with a null model which is a model that contains an intercept but no predictors. Then fit p number of simple linear regressions and add to the null model the variable that results in the lowest RSS. Then add to that model the variable that results in the lowest RSS amonst all two-variable models. Continue until some stopping rule is satisfied.</p>
+<p>In <strong>Backward Selection</strong>, you start with all variables in the model. Then remove the variable with the largest p-value - that is, the variable that is the least stastically significant. The new (p-1)-variable model is fit, and the variable with the largest p-value is removed. Continue until a stopping rule is reached.</p>
+<p>There are more criteria which will be discussed later.</p>
+<ul>
+<li>Mallow’s C<span class="math inline">\(_p\)</span></li>
+<li>AIC</li>
+<li>BIC</li>
+<li>Cross validation etc.</li>
+</ul>
+<div id="qualitative-or-categorical-variables" class="section level3">
+<h3>Qualitative or Categorical variables</h3>
+<p>Some predictors are not quantitative. Some may have factor levels and are of the type “factor” in R. For e.g., gender is a categorical variable: Male or Female. Marital status is another example, so is Ethnicity.</p>
+<p>We create a new variable called a dummy variable to represent the categorical variable.</p>
+<p><span class="math display">\[
+x_i = \begin{cases} 
+      1 &amp; if \,\,i^{th}\,person\,is\,female \\
+      0 &amp; if \,\,i^{th}\,person\,is\,male
+   \end{cases}
+\]</span></p>
+<p>Resulting model:</p>
+<p><span class="math display">\[
+y_i = \beta_0 + \beta_1x_i + \epsilon_i = \begin{cases}
+                                          \beta_0 + \beta_1 + \epsilon_i &amp; if\,\,i^{th}\,person\,is\,female\\
+                                          \beta_0 + \epsilon_i &amp; if \,\,i^{th}\,person\,is\,male
+                                          \end{cases}  
+\]</span></p>
+<p>If we have more than 2 levels in the categorical variable, we make more dummy variables. The number of dummy variables will be the number of categorical variables minus 1.</p>
+</div>
+</div>
+</div>

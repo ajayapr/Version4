@@ -1,0 +1,80 @@
+---
+title: Statistical Learning
+author: Arjun Jayaprakash
+date: '2019-09-30'
+slug: statistical-learning
+categories:
+  - Mathematics
+  - Statistics
+tags:
+  - Basic R
+  - Learning
+  - Programming
+  - R
+  - Statistical Approach
+---
+
+
+
+<div id="introduction-to-regression-models" class="section level1">
+<h1>Introduction to Regression Models</h1>
+<p>The idea is obtain a prediction model for a response variable, for instance, <em>sales</em> of a particular item, as a function of the advertising cost for <em>TV</em>, <em>newspaper</em>, and <em>radio</em>. This is to make a decision on how to better spend your money if you are trying to sell something.</p>
+<p>In other words, we are finding a function <span class="math inline">\(f(X)\)</span>, <span class="math inline">\(X\)</span> is a vector with multiple variables <span class="math inline">\((X_1, X_2, X_3 ...)\)</span>so that a response variable <span class="math inline">\(Y\)</span> can be predicted as</p>
+<p><span class="math display">\[
+Y = f(X) + \epsilon
+\]</span></p>
+<p>where <span class="math inline">\(\epsilon\)</span> is the error in prediction. Hence at each value of X, the function returns one value of <span class="math inline">\(Y\)</span>. This <span class="math inline">\(Y\)</span> will be the average of all the possible <span class="math inline">\(Y\)</span>s that can happen at that given <span class="math inline">\(X\)</span>. Mathematically,</p>
+<p><span class="math display">\[
+f(4) = E(Y|X=4)
+\]</span></p>
+<p><span class="math inline">\(E()\)</span> stands for expected value. For a vector <span class="math inline">\(X\)</span> as <span class="math inline">\((x_1, x_2, x_3)\)</span>, the same applies,</p>
+<p><span class="math display">\[
+f(x) = f(x_1, x_2, x_3) = E(Y|X_1=x_1,X_2=x_2,X_3=x_3)
+\]</span></p>
+<p>The way we find the ideal function that can do this is by minimizing the sum of squares of all the errors from the given datapoints. For any estimate <span class="math inline">\(\hat f(x)\)</span> of <span class="math inline">\(f(x)\)</span>, we have</p>
+<p><span class="math display">\[
+E[(Y-\hat f(X))^2|X=x] = [f(x) - \hat f(x)]^2 + Var(\epsilon)
+\]</span></p>
+<p>If we cannot compute the average at all values of <span class="math inline">\(X\)</span>, we can relax this idea and calculate the average of all points in the neighborhood of X.</p>
+<p><span class="math display">\[
+\hat f(x) = Ave(Y|X \in \mathcal{N}(x))
+\]</span></p>
+<p>where <span class="math inline">\(\mathcal{N}\)</span> is the neighborhood of x. Sometimes nearest neighborhood averaging does not work either. Then, there are other methods that we can use to find the regression function. Because of the <em>curse of dimensionality</em>, we cannot use the above method. In higher dimensions (large number of variables), the nearest neighbors are very far apart from each other.</p>
+<p>To solve these we use structured models such as a <em>linear model</em>.</p>
+<p><span class="math display">\[
+f_L(X) = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... \beta_pX_p
+\]</span></p>
+<p>The <em>linear</em> model is almost never correct but serves as a good approximation. We can include quadratic or higher powered terms for better prediction.</p>
+<p>There are also more flexible regression models such as a <em>thin-plate spline</em> model. We will learn more abot this later. This has a tuning parameter that controls the fitting. But we need to be careful of <em>overfitting</em>!</p>
+<div id="trade-offs" class="section level3">
+<h3>Trade offs</h3>
+<ul>
+<li>Prediction accuracy versus interpretability.</li>
+<li>Good fit versus over-fit or under-fit.</li>
+<li>Parsimony versus black-box.</li>
+</ul>
+</div>
+<div id="assessing-model-accuracy" class="section level2">
+<h2>Assessing Model Accuracy</h2>
+<ul>
+<li>Use a fresh data set as your test data, i.e., do not use the training data set to test for model accuracy since a test such as smallest <em>Mean Squared Error (MSE)</em> may be biased towards over-fit models.</li>
+</ul>
+</div>
+<div id="classification-problems" class="section level2">
+<h2>Classification Problems</h2>
+<p>Here, the response variable is qualitative or categorical. The objective here is to build a classifier <span class="math inline">\(C(X)\)</span> that assigns a class label from <span class="math inline">\(\mathcal{C}\)</span> to a future unlabeled observation X. We also need to assess the uncertainty in each classification. In addition, we also need to understand the roles of different predictors among <span class="math inline">\(X = (X_1, X_2,..., X_p)\)</span>.</p>
+<p>Think about a minimalistic example. If there is a single predictor <span class="math inline">\(X\)</span>, for any realization of <span class="math inline">\(X\)</span>, say, we observe a realization of a response <span class="math inline">\(Y\)</span>. Suppose <span class="math inline">\(Y\)</span> can only take two values, say, success or failure. We call these as classes. So here, <span class="math inline">\(Y\)</span> has two classes. In this scenario, we can then talk about the probability of observing a single class of <span class="math inline">\(Y\)</span> given we observed a given value of <span class="math inline">\(X\)</span>, say small <span class="math inline">\(x\)</span> (<span class="math inline">\(X=x\)</span>). This can be written in the conditional probability format,</p>
+<p><span class="math display">\[
+P(Y=success|X = x)
+\]</span></p>
+<p>Now, if instead of only two classes, say, <span class="math inline">\(Y\)</span> can be realized into <span class="math inline">\(k\)</span> number of classes, the same expression can be generalized as</p>
+<p><span class="math display">\[
+p_k (x) = P(Y=k | X=x), k = 1,2,...,K
+\]</span></p>
+<p>These are <em>the conditional class probabilities</em> at x. In this scenario, what we call as the <em>Bayes optimal</em> classifier at x is</p>
+<p><span class="math display">\[
+C(x) = j \,\,\, if \,\,\, p_j(x) = max \{p_1(x),p_2(x),...,p_K(x)\}
+\]</span></p>
+<p>In other words, the classifier classifies the observation into the class of <span class="math inline">\(Y\)</span> that has the highest conditional probability of observing that class at the given <span class="math inline">\(x\)</span>. The conditional probabilities can be calculated using any of the known methods like the nearest neighbor average.</p>
+</div>
+</div>

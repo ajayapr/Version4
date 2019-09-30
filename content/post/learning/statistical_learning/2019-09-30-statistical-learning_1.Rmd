@@ -1,0 +1,98 @@
+---
+title: Statistical Learning
+author: Arjun Jayaprakash
+date: '2019-09-30'
+slug: statistical-learning
+categories:
+  - Mathematics
+  - Statistics
+tags:
+  - Basic R
+  - Learning
+  - Programming
+  - R
+  - Statistical Approach
+---
+
+# Introduction to Regression Models
+
+The idea is obtain a prediction model for a response variable, for instance, _sales_ of a particular item, as a function of the advertising cost for _TV_, _newspaper_, and _radio_. This is to make a decision on how to better spend your money if you are trying to sell something.
+
+In other words, we are finding a function $f(X)$, $X$ is a vector with multiple variables $(X_1, X_2, X_3 ...)$so that a response variable $Y$ can be predicted as 
+
+\[
+Y = f(X) + \epsilon
+\]
+
+where $\epsilon$ is the error in prediction. Hence at each value of X, the function returns one value of $Y$. This $Y$ will be the average of all the possible $Y$s that can happen at that given $X$. Mathematically,
+
+\[
+f(4) = E(Y|X=4)
+\]
+
+$E()$ stands for expected value. For a vector $X$ as $(x_1, x_2, x_3)$, the same applies,
+
+\[
+f(x) = f(x_1, x_2, x_3) = E(Y|X_1=x_1,X_2=x_2,X_3=x_3)
+\]
+
+The way we find the ideal function that can do this is by minimizing the sum of squares of all the errors from the given datapoints. For any estimate $\hat f(x)$ of $f(x)$, we have
+
+\[
+E[(Y-\hat f(X))^2|X=x] = [f(x) - \hat f(x)]^2 + Var(\epsilon)
+\]
+
+If we cannot compute the average at all values of $X$, we can relax this idea and calculate the average of all points in the neighborhood of X.
+
+\[
+\hat f(x) = Ave(Y|X \in \mathcal{N}(x))
+\]
+
+where $\mathcal{N}$ is the neighborhood of x. Sometimes nearest neighborhood averaging does not work either. Then, there are other methods that we can use to find the regression function. Because of the *curse of dimensionality*, we cannot use the above method. In higher dimensions (large number of variables), the nearest neighbors are very far apart from each other.
+
+To solve these we use structured models such as a _linear model_.
+
+\[
+f_L(X) = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... \beta_pX_p
+\]
+
+The _linear_ model is almost never correct but serves as a good approximation. We can include quadratic or higher powered terms for better prediction.
+
+There are also more flexible regression models such as a _thin-plate spline_ model. We will learn more abot this later. This has a tuning parameter that controls the fitting. But we need to be careful of *overfitting*!
+
+### Trade offs
+
+* Prediction accuracy versus interpretability.
+* Good fit versus over-fit or under-fit.
+* Parsimony versus black-box.
+
+
+## Assessing Model Accuracy
+
+* Use a fresh data set as your test data, i.e., do not use the training data set to test for model accuracy since a test such as smallest _Mean Squared Error (MSE)_ may be biased towards over-fit models.
+
+
+
+## Classification Problems
+
+Here, the response variable is qualitative or categorical. The objective here is to build a classifier $C(X)$ that assigns a class label from $\mathcal{C}$ to a future unlabeled observation X. We also need to assess the uncertainty in each classification. In addition, we also need to understand the roles of different predictors among $X = (X_1, X_2,..., X_p)$.
+
+Think about a minimalistic example. If there is a single predictor $X$, for any realization of $X$, say, we observe a realization of a response $Y$. Suppose $Y$ can only take two values, say, success or failure. We call these as classes. So here, $Y$ has two classes. In this scenario, we can then talk about the probability of observing a single class of $Y$ given we observed a given value of $X$, say small $x$ ($X=x$). This can be written in the conditional probability format,
+
+\[
+P(Y=success|X = x)
+\]
+
+Now, if instead of only two classes, say, $Y$ can be realized into $k$ number of classes, the same expression can be generalized as
+
+\[
+p_k (x) = P(Y=k | X=x), k = 1,2,...,K
+\]
+
+These are _the conditional class probabilities_ at x. In this scenario, what we call as the _Bayes optimal_ classifier at x is 
+
+\[
+C(x) = j \,\,\, if \,\,\, p_j(x) = max \{p_1(x),p_2(x),...,p_K(x)\}
+\]
+
+In other words, the classifier classifies the observation into the class of $Y$ that has the highest conditional probability of observing that class at the given $x$. The conditional probabilities can be calculated using any of the known methods like the nearest neighbor average. 

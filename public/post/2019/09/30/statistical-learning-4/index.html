@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Statistical Learning 4 | Arjun Jayaprakash</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/research/">Research</a></li>
+      
+      <li><a href="/teaching/">Teaching</a></li>
+      
+      <li><a href="/publications/">Publications</a></li>
+      
+      <li><a href="/files/arjun_s_resume.pdf">CV</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Statistical Learning 4</span></h1>
+<h2 class="author">Arjun Jayaprakash</h2>
+<h2 class="date">2019/09/30</h2>
+</div>
+
+<main>
+
+
+
+<div id="classification" class="section level1">
+<h1>Classification</h1>
+<p>Response is not quantitative but are qualitative. Qualitative variables take values in an unordered set <span class="math inline">\(\mathcal{C}\)</span>, such as</p>
+<p><span class="math display">\[
+eye\,color\in \{brown,green,blue\}\\
+email \in \{spam,ham\}
+\]</span></p>
+<p>Given a feature vector <span class="math inline">\(X\)</span> and a qualitative response <span class="math inline">\(Y\)</span> taking values in the set <span class="math inline">\(\mathcal{C}\)</span>, the classification task is to build a function <span class="math inline">\(C(X)\)</span> that takes as input the feature vector <span class="math inline">\(X\)</span> and predicts its value for <span class="math inline">\(Y\)</span>, i.e., <span class="math inline">\(C(X) \in \mathcal{C}\)</span>. Often we are more interested in estimating the <em>probabilities</em> that <span class="math inline">\(X\)</span> belongs to each category in <span class="math inline">\(\mathcal{C}\)</span>.</p>
+<div id="logistic-regression" class="section level2">
+<h2>Logistic Regression</h2>
+<p>Logistic regression is used to predict the probability of observing either one or the other mutually exclusive result based on a given input variable. Let’s write <span class="math inline">\(p(X) = P(Y=1|X)\)</span> for short and consider using one variable to predict the probability. Logistic regression uses the form:</p>
+<p><span class="math display">\[
+p(X) = \dfrac{e^{\beta_0 + \beta_1X}}{1+e^{\beta_0+\beta_1X}}
+\]</span></p>
+<p>The value of <span class="math inline">\(p(X)\)</span> always lies between 0 and 1. This is basically a transformation of a linear model to guarantee that we get a probability. This is done by the <em>logit</em> transformation:</p>
+<p><span class="math display">\[
+log\left(\dfrac{p(X)}{1-p(X)} \right) = \beta_0 + \beta_1X
+\]</span></p>
+<p>We can use the maximum likelihood to estimate this model from a given data.</p>
+<p><span class="math display">\[
+\mathcal{L}(\beta_0,\beta) = \prod_{i:y_i=1}p(x_i)\prod_{i:y_i=0}(1-p(x_i))
+\]</span></p>
+<p>This <em>likelihood</em>(<span class="math inline">\(\mathcal{L}\)</span>) gives the probability of the observed zeros and ones in the data. We pick <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span> to maximize the likelihood of the observed data.</p>
+<p>Most statistical packages can fit linear logistic regression models by maximum likelihood. In R we can use the <em>glm</em> function. This would give us the <span class="math inline">\(\hat \beta_0\)</span> and <span class="math inline">\(\hat \beta_1\)</span> that best fit our data. Once we have the parameters, we can predict the probability of observing the response for any observed predictor.</p>
+<div id="mutlivariate-logistic-regression" class="section level3">
+<h3>Mutlivariate Logistic Regression</h3>
+<p>Logistic regression models with multiple predictor variables look like:</p>
+<p><span class="math display">\[
+log \left( \dfrac{p(X)}{1-p(X)} \right) = \beta_0 + \beta_1X_1 + ... + \beta_pX_p\\
+p(X) = \dfrac{e^{\beta_0 + \beta_1X_1 + ... + \beta_pX_p}}{1+e^{\beta_0 + \beta_1X_1 + ... + \beta_pX_p}}
+\]</span></p>
+<p>What one has to be careful about in doing multiple variable regression is the counfounding effect of correlated predictors. Remember no causality can be claimed for observational data. Causality can only be inferred if we set up an experiment to investigate causality.</p>
+</div>
+<div id="logistic-regression-with-more-than-two-classes-as-response" class="section level3">
+<h3>Logistic regression with more than two classes as response</h3>
+<p>So far we have discussed logistic regression with two classes. It is easily generalized to more than two classes. One version (used in the R package <em>glmnet</em>) has the symmetric form</p>
+<p><span class="math display">\[
+P(Y=k|X) =  \dfrac{e^{\beta_{0k}+\beta_{1k}X_1+...+\beta_{pk}X_p}}{\sum_{l=1}^Ke^{\beta_{0l}+\beta_{1l}X_1+...+\beta_{pl}X_p}}
+\]</span></p>
+<p>This is also referred to as <em>multinomial regression</em>.</p>
+</div>
+</div>
+<div id="discriminant-analysis" class="section level2">
+<h2>Discriminant Analysis</h2>
+<p>This is a different approach to classification. Here, the approach is to model the distribution of <span class="math inline">\(X\)</span> in each of the classes separately, and then use <em>Bayes theorem</em> to flip things around and obtain <span class="math inline">\(P(Y|X)\)</span>. When we use normal distributions for each class, this leads to linear or quadratic discriminant analysis. However, this approach is quite general, and other distributions can be used as well.</p>
+<p>Bayes theorem:</p>
+<p><span class="math display">\[
+P(Y=k|X=x) = \dfrac{P(X=x|Y=k)P(Y=k)}{P(X=x)}
+\]</span></p>
+<p>One writes this slightly differently for discriminant analysis:</p>
+<p><span class="math display">\[
+P(Y=k|X=x) = \dfrac{\pi_kf_k(x)}{\sum_{l=1}^K\pi_lf_l(x)}
+\]</span></p>
+<p>where, <span class="math inline">\(f_k(x) = P(X=x|Y=k)\)</span> is the <em>density</em> for <span class="math inline">\(X\)</span> in class k. In other words this is the likelihood of observing <span class="math inline">\(X=x\)</span> assuming <span class="math inline">\(Y=k\)</span> is the true result. Also, <span class="math inline">\(\pi_k = P(Y=k)\)</span> is the marginal or <em>prior</em> probability for class <span class="math inline">\(k\)</span>.</p>
+<p>Why use discriminant analysis?</p>
+<ul>
+<li><p>When the classes are well-separated, the parameter estimates for the logistic regression model are surprisingly unstable. Linear discriminant analysis does not suffer from this problem.</p></li>
+<li><p>If <span class="math inline">\(n\)</span> is small and the distribution of the predictors <span class="math inline">\(X\)</span> is approximately normal in each of the classes, the linear discriminant model is again more stable than the logistic regression model.</p></li>
+<li><p>Linear discriminant analysis is popular when we have more than two response classes, because it also provides low-dimensional views of the data.</p></li>
+</ul>
+<div id="linear-discriminant-analysis-when-p-1" class="section level3">
+<h3>Linear Discriminant Analysis when <span class="math inline">\(p\)</span> = 1</h3>
+<p>Density function for Gaussian (normal) distribution is:</p>
+<p><span class="math display">\[
+f_k(x) = \dfrac{1}{\sqrt{2\pi}\sigma_k}e^{-\frac{1}{2}\left( \frac{x-\mu_k}{\sigma_k}\right)^2}
+\]</span> where <span class="math inline">\(\mu_k\)</span> is the mean, and <span class="math inline">\(\sigma_k^2\)</span> is the variance (in class <span class="math inline">\(k\)</span>). Teh assumption here is that all the <span class="math inline">\(\sigma_k = \sigma\)</span> are the same.</p>
+<p>When we plug this in the <em>Bayes theorem</em> we get a formula for <span class="math inline">\(p_k(x)\)</span>. To classify at the value of <span class="math inline">\(X=x\)</span>, we need to see which of the <span class="math inline">\(p_k(x)\)</span> is largest. Taking logs, and discarding terms that do not depend on <span class="math inline">\(k\)</span>, we see that this is equivalent to assigning <span class="math inline">\(x\)</span> to the class with the largest <em>discriminant score</em>.</p>
+<p><span class="math display">\[
+\delta_k(x) = x\dfrac{\mu_k}{\sigma^2}- \dfrac{\mu_k^2}{2\sigma^2} + log(\pi_k)
+\]</span></p>
+<p>This <span class="math inline">\(\delta_k(x)\)</span> is a linear function of <span class="math inline">\(x\)</span>.</p>
+<p>When there are more than one predictors, <span class="math inline">\(p \gt 1\)</span>, the density functions involved in discriminant analysis are joint densities. The math gets complicated here as we include covariance matrices in the expressions to get the discriminant score.</p>
+<p>What is great is that it turns out that the discriminant scores can be turned into probabilities pretty easily.</p>
+<p><span class="math display">\[
+\hat P(Y=k|X=x) = \dfrac{e^{\hat \delta_k(x)}}{\sum_{l=1}^K e^{\delta_l(x)}}
+\]</span></p>
+<p>So classifying to the largest score amounts to classifying to the class for which the probability is the largest.</p>
+</div>
+</div>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; <a href="https://arjunjayaprakash.netlify.com">Arjun Jayaprakash</a> 2018 &ndash; 2019 | <a href="https://github.com/ajayapr">Github</a> | <a href="https://twitter.com/ahankariindian">Twitter</a> | <a href="https://www.linkedin.com/in/arjun-jayaprakash-e-i-t-431632a0/">LinkedIn</a>
+  
+  </footer>
+  </body>
+</html>
+

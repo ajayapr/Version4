@@ -6,10 +6,31 @@
     <description>Recent content in Learning on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Statistical Learning</title>
+      <link>/post/2019/09/30/statistical-learning/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/30/statistical-learning/</guid>
+      <description>Introduction to Regression Models The idea is obtain a prediction model for a response variable, for instance, sales of a particular item, as a function of the advertising cost for TV, newspaper, and radio. This is to make a decision on how to better spend your money if you are trying to sell something.
+In other words, we are finding a function \(f(X)\), \(X\) is a vector with multiple variables \((X_1, X_2, X_3 .</description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning 4</title>
+      <link>/post/2019/09/30/statistical-learning-4/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/30/statistical-learning-4/</guid>
+      <description>Classification Response is not quantitative but are qualitative. Qualitative variables take values in an unordered set \(\mathcal{C}\), such as
+\[ eye\,color\in \{brown,green,blue\}\\ email \in \{spam,ham\} \]
+Given a feature vector \(X\) and a qualitative response \(Y\) taking values in the set \(\mathcal{C}\), the classification task is to build a function \(C(X)\) that takes as input the feature vector \(X\) and predicts its value for \(Y\), i.e., \(C(X) \in \mathcal{C}\). Often we are more interested in estimating the probabilities that \(X\) belongs to each category in \(\mathcal{C}\).</description>
+    </item>
     
     <item>
       <title>Engineering Mechanics - Statics</title>

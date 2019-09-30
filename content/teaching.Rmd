@@ -21,6 +21,7 @@ Read my full teaching statement [here](\post\2019\09\30\teaching-statement).
 
 * [Python](\post\1\01\01\learning-python-py-series)
 * [Linear Algebra](\post\2019\03\14\intro)
+* [Statistical Learning](\post\2019\09\30\contents-statistical-learning)
 
 ## Q & A 
 
