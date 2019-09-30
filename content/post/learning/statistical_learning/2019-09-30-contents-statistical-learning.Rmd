@@ -1,5 +1,5 @@
 ---
-title: 'Contents Statistical Learning '
+title: 'Statistical Learning'
 author: Arjun Jayaprakash
 date: '2019-09-30'
 slug: contents-statistical-learning
@@ -7,7 +7,7 @@ categories: []
 tags: []
 ---
 
-## Parts
+## Contents
 
 * [Intro to Regression](\post\2019\09\30\statistical-learning)
 * [Simple Linear Regression](\post\2019\09\30\statistical-learning-2)
