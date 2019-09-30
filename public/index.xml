@@ -6,10 +6,19 @@
     <description>Recent content in Home on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teaching Statement</title>
+      <link>/post/2019/09/30/teaching-statement/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/09/30/teaching-statement/</guid>
+      <description>My teaching interests and philosophy have been heavily influenced by the faculty members I have worked with or have attended lectures of, throughout my time at North Carolina State University (NCSU). Along the way, I have picked up effective teaching techniques from each one of them which has prepared me to develop a style of my own. I am an instructor for the course CE 214: Engineering Mechanics-Statics at NCSU.</description>
+    </item>
     
     <item>
       <title>Research Statement</title>

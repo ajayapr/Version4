@@ -1,0 +1,119 @@
+---
+title: Teaching Statement
+author: Arjun Jayaprakash
+date: '2019-09-30'
+slug: teaching-statement
+categories: []
+tags: []
+---
+
+<div style="text-align: justify">My teaching interests and philosophy have been heavily influenced by the faculty members I have
+worked with or have attended lectures of, throughout my time at North Carolina State University (NCSU).
+Along the way, I have picked up effective teaching techniques from each one of them which has prepared
+me to develop a style of my own. I am an instructor for the course CE 214: Engineering Mechanics-Statics at NCSU. I have been teaching this course for the past two semesters. Presently, this class has 49
+students and is one of three sections for CE 214. Although the curriculum remains the same in all of the
+three sections, I independently develop homework, quizzes, and exams for my class. My role also involves
+serving office hours, coordinating the instructional workflow with my teaching assistant, organizing the
+class website, and performing administrative requirements for the class. I use quarterly surveys to gauge
+the effectiveness of my assignments and adjust accordingly to provide students with skills to solve a wide
+range of problems.
+
+My experience of teaching CE 214 for two semesters has led me to believe that a large number of
+students find it challenging to make a smooth transition from high school to college. Hence, my philosophy
+for teaching fundamental subjects such as statics, mechanics of solids, reinforced concrete, and structural
+steel is as follows. I like to teach the fundamentals by relating every new concept to something the
+students are already familiar with. Just like climbing up a staircase, I proceed one step at a time because
+it is easy to lose collective attention if I start jumping up too early. I have found that it is easier for
+students to make difficult leaps up the stairs of learning when they possess the skill of relating concepts
+to one another. As chapters progress, I like to continuously refer back to concepts they have learned in
+earlier chapters to facilitate understanding of newer ones.
+
+Engineering courses require critical thinking and problem-solving skills. In addition to solving problems
+during lecture hours, I provide my students with pre-recorded tutorial videos that emphasize on
+trickier problems and their solutions.
+I like to create a class environment conducive for students to ask questions by pausing, and also encouraging
+them to interrupt me at any point. In my experience, appreciating good questions, answering
+them, posing a related question, and answering the second one as well have seemingly increased class
+participation.
+
+In addition to coursework, I like to encourage interested undergraduate students to perform independent
+research. Depending on their interest, these will be studies that would add value to the field, such
+as development of software to solve specific problems or hands-on contribution to projects explored by
+my graduate students. This approach enhances their understanding of the subject and adds content to
+their professional portfolio.
+
+For graduate-level courses, I like to employ a different approach. The students at this level will have
+chosen this field of study of their own volition and hence will be intrigued to know more. Building up
+from concepts that they already know is still an effective strategy. However, graduate students need
+to be challenged more because they are the ones who often find themselves at the forefront of research
+in any field. Their aptitude for critically thinking about unsolved problems have to be cultured in the
+classroom. In my advanced course offerings, while lectures will still be the primary source of information
+dissemination, some of the knowledge required to complete assignments will have to come from external sources. Rather than limiting their experience by solving textbook problems, I am interested in pushing
+graduate students to solve open-ended problems that are either research or practice-oriented.
+
+My approach will be to incorporate state-of-the-art research within the coursework. For example, in
+a course pertaining to earthquake engineering, a conclusive answer to a question of which ground motions
+are to be used for design verification, is still under much debate and is an open area of research. However,
+recent concepts such as the Conditional Mean Spectrum (CMS) may open up viable paths. As a separate
+example, in performance-based structural design, engineering demand parameters such as inter-storey
+drift have been conventionally used as a limit-state for non-structural damage. Recent parameters such
+as the Expected Annual Loss (EAL) may lead to building designs with better control on non-structural
+damage. In short, I will incorporate the latest concepts in my curriculum to provide the students with a
+sense of where research is headed.
+
+As a doctoral student, I have received ample opportunities to mentor students. I was a mentor to two
+students at different points of time as part of the RISE program for undergraduate research. The mentoring
+was nominally for three months during summers in which the students assisted me in performing
+experiments and analyzing test data. These experiments directly contributed to my dissertation. From
+one-on-one conversations with them, I learned about their expectations of a mentor. These conversations
+allowed me to adjust my approach to make both their and my time worthwhile. The following is an anecdote
+to illustrate what I mean. Initially, I used to repeat myself when instructing the first of my mentees
+on some research methods. I had assumed that this would reinforce the student’s learning. However, I
+soon realized that the student was a fast learner and that repetitive instructions were superfluous to the
+whole process. Consequently, I changed my approach appropriately. As a mentor, I am now confident
+that I will be able to tailor my approach in the most efficient manner suitable to the mentee.
+
+My role as a mentor was overseen by Dr. Mervyn Kowalsky. He was also the faculty advisor for
+my mentees. I have received meaningful feedback from him during our meetings which has helped me
+immensely in improving my approach.
+
+At NCSU, I was selected into a cohort for a one-year training program called “Preparing the Professoriate”,
+organized by the Graduate School. This program is designed for aspirants of pursuing an academic
+career. The program coordinators organized multiple workshops that aided my development as a faculty
+candidate. I received training in different aspects of being an academic faculty such as teaching, mentoring,
+classroom management, and serving roles of ancillary nature when required by the department. This
+program also provided me with a unique opportunity of observing and being mentored by an established
+faculty member in the planning and execution of an undergraduate course. I was mentored by Dr. Rudi
+Seracino. This opportunity has exposed me to thinking critically about learning objectives, and how
+these align with the department’s vision and with the standards required by the Southern Association of
+Colleges and Schools Commission on Colleges (SACSCOC). In addition to lecturing, being involved with
+administrative aspects of teaching, while serving as an instructor, has helped me develop professionally
+as a university-level educator.
+
+In summary, my teaching and mentoring experiences have included the following:
+
+* acting as a substitute lecturer in the absence of the instructor in classes as large as 120 students;
+* acting as course instructor for classes of up to 50 students;
+* organizing and developing seminars, workshops, and demonstrations;
+* coordinating material procurement and preparation;
+* developing assignments, problem sets, quizzes, and tests;
+* grading and evaluating student work;
+* hosting office hours and review sessions; and
+* engaging in the administrative aspects of university level teaching.
+
+Topics that I am comfortable to teach are: Engineering Mechanics - Statics and
+Dynamics, Solid Mechanics, Structural Analysis - Classical and Matrix methods, Reinforced Concrete
+Design, Structural Steel Design, Finite Element Methods, Structural Dynamics, Earthquake Engineering,
+Non-linear Analysis and Design of Structures, and Probabilistic Methods in Structural Engineering.
+In addition, new courses that I am interested to develop are Performance-Based Seismic Design
+of Structures and Statistical Learning in Earthquake Engineering. These courses would contain basic
+and advanced concepts of structural demand and capacity under earthquakes, viewed through the lens
+of probability theory. Important objectives will be to prepare students to carry out displacement-based
+design and assessment of structures, perform seismic risk assessment and retrofitting, and apply statistical
+techniques to make inference regarding structural reliability.
+
+I believe that knowledge is invaluable because it allows people to progress by achieving goals they
+would not have achieved otherwise. Therefore, passing it on comes with big responsibilities, but not
+without the pleasure of giving something back to the society.
+
+</div>
