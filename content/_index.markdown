@@ -7,8 +7,7 @@ title: Home
 
 <!-- [<img src="http://simpleicons.org/icons/github.svg" style="max-width:10%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/ajayapr) -->
 
-<img src="myPic.jpg"
-style="max-width:30%;min-width:40px;float:right;">
+
 
 # ARJUN JAYAPRAKASH
 
@@ -23,6 +22,9 @@ style="max-width:30%;min-width:40px;float:right;">
  Raleigh, NC - 27606.  
  Email: ajayapr@ncsu.edu
  
+ <img src="myPic2.jpg"
+style="max-width:50%;min-width:40px;float:right;">
+
  [ResearchGate](https://www.researchgate.net/profile/Arjun_Jayaprakash)
  [<img src="/figures/svg/researchgate.png" style="max-width:5%;min-width:10px;float:left;" alt="Linkedin profile" />](https://www.researchgate.net/profile/Arjun_Jayaprakash)
  
