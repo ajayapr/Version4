@@ -45,7 +45,7 @@ style="max-width:50%;min-width:40px;float:right;">
  
 ### Short Bio
 
-<div style="text-align: justify"> My hometown is Calicut, a small city in southern India. I completed my bachelors degree in Civil Engineering in 2011 from the National Institute of Technology Calicut. After working for a couple of years in the industry, I moved to Raleigh, North Carolina to pursue a masters program at NC State University specializing in Structural Engineering. My interest in Earthquake Engineering evolved during my masters subsequently motivating me to continue for a PhD program. I am currently on course to complete my PhD by early 2020. I am actively looking for collaborations in the areas of my interest. </div>
+<div style="text-align: justify"> My hometown is Calicut, which is a small city in southern India upon where in 1498 had landed Vasco da Gama, the first European to reach India by sea. I completed my bachelors degree in Civil Engineering in 2011 from the National Institute of Technology Calicut. After working for a couple of years in the industry, I moved to Raleigh, North Carolina to pursue a masters program at NC State University specializing in Structural Engineering. My interest in Earthquake Engineering evolved during my masters subsequently motivating me to continue for a PhD program. I am currently on course to complete my PhD by early 2020. I am actively looking for collaborations in the areas of my interest. </div>
 
 
  **Research Interests**
