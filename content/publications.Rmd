@@ -2,6 +2,13 @@
 title: "Publications"
 output: html_document
 ---
+## Journal Papers
+
+* **Jayaprakash, A.**, Nau, J., Pour-Ghaz, M., and Kowalsky, M., "The Impact of Grout
+Deterioration on the Structural Performance of the Grouted Shear Stud Connection", _Engineering Structures_, Under review.
+
+* **Jayaprakash, A.** and Kowalsky, M., "Opposite Peak Ratio to Characterize Seismic
+Loading History for Performance Based Design", _Earthquake Spectra_, Under review.
 
 ## Conference Papers
 
