@@ -7,6 +7,9 @@ categories: []
 tags: []
 ---
 
+<img src="\pictures\Action_pic2.png"
+style="max-width:70%;min-width:40px;float:center;">
+
 Read my full teaching statement [here](\post\2019\09\30\teaching-statement).
 
 ## Courses
