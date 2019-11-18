@@ -36,7 +36,7 @@ footnotereturnlinkcontents = "↩"
     weight = 5     
 [[menu.main]]
     name = "CV"
-    url = "/files/Arjun_s_Resume.pdf"
+    url = "/files/Arjun_s_Resume_2.pdf"
     weight = 6    
 [[menu.main]]
     name = "Categories"
