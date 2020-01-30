@@ -1,7 +1,7 @@
 ---
 title: "Balance Ratio to Characterize Earthquake Loading History - A pilot study"
 author: Arjun Jayaprakash
-date: '2019-04-06'
+date: '2020-01-30'
 slug: balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study
 categories:
   - Projects
@@ -14,6 +14,6 @@ tags:
 
 ## Introduction
 
-<div style="text-align: justify"> Earthquake "hazard" is a technical term for a quantitiy or a series of quanitites that captures the effect of an earthquake ground motion on structures. For instance, the peak ground acceleration (PGA) is an extremely simple representation of an earthquake. It essentially is the maximum ground acceleration value observed at a site during an earthquake. Does this tell us everything we want to know about an earthquake? Of course not. Is it useful? Occasionally. But regardless, it is one of the earliest quantification of an earthquake hazard and many structures existing today have been designed to be so called "Earthquake resistant". Later, a more useful parameter was defined for the same purpose. This was spectral acceleration (S$_a$). It is the peak acceleration response of a single degree of freedom (SDOF) oscillator under a given ground motion. While there is only a single PGA for a ground motion, there are infinite number of S$_a$ values, because S$_a$ is a function of the period of the oscillator. As S$_a$ is for acceleration, one could also define spectral displacement (S$_d$) for displacement response of oscillators. These quantifications have been much more useful for design, since they provide us with the maximum values. It is assumed that if you design your structure for the maximum response, it will be able to survive any lower response. </div>
+<div style="text-align: justify"> **Abstract:** Recent studies have revealed the impact of ground motion loading history on performance limit-states of RC bridge columns such as longitudinal reinforcement bar-buckling and residual drift ratio. Conventional hazard characterizations such as peak ground acceleration, spectral acceleration, and spectral displacement can only capture peak values of ground motion hazard and therefore fall short of providing the necessary information to account for these limit-states. In this study, a parameter termed as the opposite peak ratio is defined, explored, and shown to be useful in reproducing loading history characteristics of ground motions for displacement-based design. First, a study was designed to investigate correlations between the opposite peak ratio and the performance limit-states of reinforcement bar-buckling and residual drift ratio in RC bridge columns. By analyzing the results of non-linear time history analyses of numerical RC column models, it was established that these limit-states have a good correlation with the opposite peak ratio. Subsequently, a large number of past ground motions were analyzed and empirical models to estimate the opposite peak ratio were developed. These models can provide the mean and confidence intervals of the opposite peak ratio as a function of earthquake magnitude, epicentral distance, structural period, hysteretic model, and displacement ductility. They can be used in the displacement-based design process for reinforced concrete columns. </div>
 
-When I say design, what do I specifically mean by it?
+*Paper under review...To be updated upon acceptance.* 

@@ -6,10 +6,19 @@
     <description>Recent content in Structures on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/structures/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Balance Ratio to Characterize Earthquake Loading History - A pilot study</title>
+      <link>/projects/2020/01/30/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/2020/01/30/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</guid>
+      <description>Introduction Abstract: Recent studies have revealed the impact of ground motion loading history on performance limit-states of RC bridge columns such as longitudinal reinforcement bar-buckling and residual drift ratio. Conventional hazard characterizations such as peak ground acceleration, spectral acceleration, and spectral displacement can only capture peak values of ground motion hazard and therefore fall short of providing the necessary information to account for these limit-states. In this study, a parameter termed as the opposite peak ratio is defined, explored, and shown to be useful in reproducing loading history characteristics of ground motions for displacement-based design.</description>
+    </item>
     
     <item>
       <title>Engineering Mechanics - Statics</title>
@@ -19,15 +28,6 @@
       <guid>/resources/courses/statics/</guid>
       <description>Statics deals with the equilibrium of bodies, that is, those that are either at rest or move with a constant velocity. The most effective way of learning the principles of engineering mechanics is to solve as many problems as you can. Here is a generic suggestive list of the steps you take to solve problems in mechanics (Adapted from Engineering mechanics, 14th edition, Hibbeler).
  Read the problem carefully and try to correlate the actual physical situation with the theory studied.</description>
-    </item>
-    
-    <item>
-      <title>Balance Ratio to Characterize Earthquake Loading History - A pilot study</title>
-      <link>/projects/2019/04/06/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</link>
-      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/2019/04/06/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</guid>
-      <description>Introduction Earthquake “hazard” is a technical term for a quantitiy or a series of quanitites that captures the effect of an earthquake ground motion on structures. For instance, the peak ground acceleration (PGA) is an extremely simple representation of an earthquake. It essentially is the maximum ground acceleration value observed at a site during an earthquake. Does this tell us everything we want to know about an earthquake? Of course not.</description>
     </item>
     
     <item>

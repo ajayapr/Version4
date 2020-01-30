@@ -26,12 +26,12 @@ style="max-width:40%;min-width:40px;float:center;">
 <div style="text-align: justify"> The grouted shear stud (GSS) connection is a steel bridge column to cap-beam connection developed as an alternative to conventional directly welded connections. The directly welded connections have been shown to fail prematurely in a brittle fashion which is undesirable for seismic design. The GSS connection eliminates any failure at the weld interface by relocating failure on to the columns. This failure is ductile. To learn more on the long term behavior of this connection, click [here](\projects\2019\02\20\structural-consequences-in-gss)... </div>
 
 
-### [Characterizing Earthquake Loading History - A Pilot Study History](\projects\2019\03\02\balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study)
+### [Characterizing Earthquake Loading History - A Pilot Study History](\projects\2020\01\30\balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study)
 
 <img src="\figures\Balanceratio_definition.png"
 style="max-width:60%;min-width:40px;float:center;">
 
-<div style="text-align: justify"> Current earthquake hazard intensity measures such as peak ground accelerations, spectral accelerations, spectral displacements etc. do not capture the load history characteristics of real ground motions. A new parameter called "Balance Ratio" that captures peak spectral response displacements on both sides of equilibrium position is investigated for potential utility as an input parameter in state-of-the-art reinforcement bar buckling model. To learn more, click [here](\projects\2019\03\02\balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study)... </div>
+<div style="text-align: justify"> Current earthquake hazard intensity measures such as peak ground accelerations, spectral accelerations, spectral displacements etc. do not capture the load history characteristics of real ground motions. A new parameter called "Opposite Peak Ratio" that captures peak spectral response displacements on either side of equilibrium position is investigated for potential utility as an input parameter in state-of-the-art limit state models. To learn more, click [here](\projects\2020\01\30\balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study)... </div>
 
 ### [Sensitivity of NLTH Analysis of MDOF Bridges to Choice of Viscous Damping Models](\projects\2017\04\27\sensitivity-of-nlth-analysis-of-mdof-bridges-to-choice-of-viscous-damping-models)
 

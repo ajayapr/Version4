@@ -6,10 +6,19 @@
     <description>Recent content in Home on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Balance Ratio to Characterize Earthquake Loading History - A pilot study</title>
+      <link>/projects/2020/01/30/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/2020/01/30/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</guid>
+      <description>Introduction Abstract: Recent studies have revealed the impact of ground motion loading history on performance limit-states of RC bridge columns such as longitudinal reinforcement bar-buckling and residual drift ratio. Conventional hazard characterizations such as peak ground acceleration, spectral acceleration, and spectral displacement can only capture peak values of ground motion hazard and therefore fall short of providing the necessary information to account for these limit-states. In this study, a parameter termed as the opposite peak ratio is defined, explored, and shown to be useful in reproducing loading history characteristics of ground motions for displacement-based design.</description>
+    </item>
     
     <item>
       <title>Statistical Learning</title>
@@ -140,15 +149,6 @@ Given a feature vector \(X\) and a qualitative response \(Y\) taking values in t
       
       <guid>/post/2019/04/08/teaching-statement/</guid>
       <description>My approach to teaching an undergraduate level course is different from my plan to teach a graduate level course. My experience from observing and teaching the statics course, as well as having been an undergraduate student, has lead me to believe that a majority of the students find it hard to make the transition from high school to college level. Hence, my philosophy for teaching fundamental courses like statics, mechanics of solids, reinforced concrete etc.</description>
-    </item>
-    
-    <item>
-      <title>Balance Ratio to Characterize Earthquake Loading History - A pilot study</title>
-      <link>/projects/2019/04/06/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</link>
-      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/2019/04/06/balance-ratio-to-characterize-earthquake-loading-history-a-pilot-study/</guid>
-      <description>Introduction Earthquake “hazard” is a technical term for a quantitiy or a series of quanitites that captures the effect of an earthquake ground motion on structures. For instance, the peak ground acceleration (PGA) is an extremely simple representation of an earthquake. It essentially is the maximum ground acceleration value observed at a site during an earthquake. Does this tell us everything we want to know about an earthquake? Of course not.</description>
     </item>
     
     <item>
