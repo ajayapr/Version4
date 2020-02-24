@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Seismic Design of Steel Bridge Piers with Socket Connection</title>
+      <link>/projects/2020/02/24/seismic-design-of-steel-bridge-piers-with-socket-connection/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/2020/02/24/seismic-design-of-steel-bridge-piers-with-socket-connection/</guid>
+      <description>Abstract Direct displacement-based seismic design (DDBD) procedure demands that the designer be able to estimate the total displacement of a structural system at important limit states. Generally, this requirement is satisfied through simplified design equations that relate limit state strain or section curvature to global system displacement. In the case of steel bridge substructure systems with hollow circular columns and socket-type connections, estimation of limit state displacements is not trivial because of additional flexibility in the system, attributable to cap-beam flexure and socket connection rotation.</description>
+    </item>
     
     <item>
       <title>Balance Ratio to Characterize Earthquake Loading History - A pilot study</title>
