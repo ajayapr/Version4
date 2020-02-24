@@ -15,6 +15,6 @@ Direct displacement-based seismic design (DDBD) procedure demands that the desig
 ## Poster Presentation Supplemental Materials
 
 * View Poster
-* View Cheatsheet for simplified model
+* [View Cheatsheet for simplified model](\files\Cheatsheet_for_GSS_Poster.pdf)
 * View dissertation chapter
 * View paper (Coming soon...)
