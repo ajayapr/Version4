@@ -9,7 +9,7 @@ tags: []
 
 ## Poster Presentation Supplemental Materials
 
-* View Poster
+* [View Poster](\files\Poster_for_EERI_and_Graduate_Symposium_2020.pdf)
 * [View Cheatsheet for simplified model](\files\Cheatsheet_for_GSS_Poster.pdf)
 * View dissertation chapter
 * View paper (Coming soon...)
