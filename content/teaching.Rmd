@@ -36,3 +36,7 @@ Read my full teaching statement [here](\post\2019\09\30\teaching-statement).
 * [MIT Open Courseware](https://www.youtube.com/user/MIT)
 * [EdX](https://www.edx.org/)
 * [DataCamp](https://www.datacamp.com/)
+
+### Youtube Channels
+
+* [jbstatistics](https://www.youtube.com/user/jbstatistics)
