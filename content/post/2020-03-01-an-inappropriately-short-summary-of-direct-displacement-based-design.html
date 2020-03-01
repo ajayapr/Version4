@@ -1,0 +1,52 @@
+---
+title: An inappropriately short summary of Direct Displacement Based Design
+author: Arjun Jayaprakash
+date: '2020-03-01'
+slug: an-inappropriately-short-summary-of-direct-displacement-based-design
+categories: []
+tags: []
+bibliography: references.bib
+output:
+  bookdown::html_document2: default
+---
+
+
+
+<p>The fundamental steps of the DDBD procedure has been eloquently presented in many prior publications <span class="citation">(M. Priestley 2000; Priestley 2003; M. J. N. Priestley, Calvi, and Kowalsky 2007)</span>. This write up is my attempt to summarize this design philosophy in as little words as possible. It is convenient to illustrate the DDBD procedure using an SDOF structure. For MDOF structures, the usual practice is to represent them as equivalent SDOF structures using the substitute structure method proposed by <span class="citation">Shibata and Sozen (1976)</span>. In Figure <a href="#fig:SDOFddbd">1</a>a, a regular frame building and its equivalent SDOF structure is conceptualized. It must be noted that this approach can be extended to any structural type. The bilinear envelope of the lateral force-displacement response of the equivalent SDOF representation is shown in Figure <a href="#fig:SDOFddbd">1</a>b.</p>
+<div class="figure" style="text-align: center"><span id="fig:SDOFddbd"></span>
+<img src="/projects/figures/SDOF_ddbd.PNG" alt="Fundamentals of DDBD" width="400px" />
+<p class="caption">
+Figure 1: Fundamentals of DDBD
+</p>
+</div>
+<p>The first step in this procedure is to characterize the limit states of the structure. Generally, these limit states are based either on structural damage or on functional limitations of the structure. For example, in steel pile supported bridges, buckling of the pile cross-section is an important limit state because it precedes drastic reduction in the strength of the system. Alternatively, if these bridges are simply supported at the abutments, the seat width of girders at the abutments may determine a functional limit state, i.e., the girders must not slide off their support. In either case, these limiting events can be translated into a level of structural displacement of these bridges. In DDBD, these displacements that correspond to a given limit state is called the <em>Target Displacement</em> for design. The goal of DDBD procedure is to force the structure to respond in a desirable way, in the sense that the structure undergoes a peak displacement (<span class="math inline">\(\Delta_d\)</span>) equal to the target displacement (<span class="math inline">\(\Delta_t\)</span>) under the design level seismic event.</p>
+<p>Once the target displacement is determined, the next step is to use the design displacement response spectra to determine the effective period of the structure. The effective period (<span class="math inline">\(T_{e}\)</span>) of a structure is the period of its most significant mode shape at peak response. <span class="math inline">\(T_{e}\)</span> can be calculated using the secant stiffness (<span class="math inline">\(K_e\)</span>) of the structure at any given limit state, as shown in Figure <a href="#fig:SDOFddbd">1</a>b. Naturally, <span class="math inline">\(T_{e}\)</span> depends on the corresponding limit state under consideration and must be differentiated from the initial elastic period <span class="math inline">\(T_i\)</span>, which is a parameter commonly used in force-based design. <span class="math inline">\(T_{e}\)</span> can be determined for a given hazard by entering the design displacement spectrum on its y-axis at the value given by <span class="math inline">\(\Delta_d\)</span>, as shown in Figure <a href="#fig:SDOFddbd">1</a>d. <span class="math inline">\(T_{e}\)</span> can be read from the x-axis of the response spectrum curve corresponding to the appropriate level of damping in the system.</p>
+<p>The damping in a structure is characterized by what is known as the equivalent viscous damping ratio (<span class="math inline">\(\xi_{eq}\)</span>) <span class="citation">M. J. N. Priestley, Calvi, and Kowalsky (2007)</span>. <span class="math inline">\(\xi_{eq}\)</span> of a structure is evaluated as a linear combination of its inherent viscous component and the hysteretic component. Viscous damping is a catch-all quantity to represent contributions from many different mechanisms that contribute to structural damping. On the other hand, hysteretic damping is exhibited by the structure under an earthquake because of its non-linear excursions that dissipate strain energy. <span class="math inline">\(\xi_{eq}\)</span> can also be understood as the damping ratio of the equivalent elastic SDOF structure, that upon excitation by the same ground motion, results in the same peak response as the inelastic MDOF structure. There exist relationships <span class="citation">M. J. N. Priestley, Calvi, and Kowalsky (2007)</span> between equivalent viscous damping and system ductility for various classes of structures, represented graphically in Figure <a href="#fig:SDOFddbd">1</a>c. For any given level of displacement ductility, which can be evaluated using the target and yield displacement limits, <span class="math inline">\(\xi_{eq}\)</span> can be read from Figure <a href="#fig:SDOFddbd">1</a>c. Recollect that this information is then used to determine the response spectrum curve that must be used to obtain the effective period.</p>
+<p>The next step is to calculate the total base shear of the structure which can then be used to obtain design forces for structural members. After evaluating <span class="math inline">\(T_{e}\)</span>, Equation <a href="#eq:eff-stiffness">(1)</a> can be used to obtain the effective or secant stiffness (<span class="math inline">\(K_e\)</span>) of the equivalent SDOF structure, where <span class="math inline">\(M\)</span> is the total participating mass of the structure. Subsequently, Equation <a href="#eq:base-shear">(2)</a> can be used to determine the base shear (<span class="math inline">\(V_B\)</span>).</p>
+<span class="math display" id="eq:eff-stiffness">\[\begin{equation}
+K_e = 4 \pi^2 \dfrac{M}{T_e^2} \tag{1}
+\end{equation}\]</span>
+<span class="math display" id="eq:base-shear">\[\begin{equation}
+V_B = K_e \Delta_t \tag{2}
+\end{equation}\]</span>
+<p>Under a few minimal assumptions, the base shear (<span class="math inline">\(V_B\)</span>) can also be evaluated directly using a single equation <span class="citation">(M. J. N. Priestley, Calvi, and Kowalsky 2007)</span>, as shown in Equation <a href="#eq:base-shear-full">(3)</a>. In this equation, <span class="math inline">\(\Delta_c\)</span> and <span class="math inline">\(T_c\)</span> are corner point displacement and period as given by the design response spectrum.</p>
+<span class="math display" id="eq:base-shear-full">\[\begin{align}
+V_B = \dfrac{4 \pi^2 M}{\Delta_t} \left ( \dfrac{\Delta_c}{T_c}\right )^2 \dfrac{7}{2 + \xi_{eq}} \tag{3}
+\end{align}\]</span>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-priestley2003myths">
+<p>Priestley. 2003. “Myths and Fallacies in Earthquake Engineering, Revisited: The Ninth Mallet Milne Lecture.” Istituto Universitario di Studi Superiori di Pavia.</p>
+</div>
+<div id="ref-Priestley2007DDBD">
+<p>Priestley, M J N, G M Calvi, and M J Kowalsky. 2007. <em>Displacement-Based Seismic Design of Structures</em>. First Edition. Pavia, ITALY: IUSS Press.</p>
+</div>
+<div id="ref-priestley2000performance">
+<p>Priestley, MJN. 2000. “Performance Based Seismic Design.” <em>Bulletin of the New Zealand Society for Earthquake Engineering</em> 33 (3). Citeseer: 325–46.</p>
+</div>
+<div id="ref-shibata1976substitute">
+<p>Shibata, Akenori, and Meta A Sozen. 1976. “Substitute-Structure Method for Seismic Design in R/c.” <em>Journal of the Structural Division</em> 102 (ASCE# 11824).</p>
+</div>
+</div>
+</div>

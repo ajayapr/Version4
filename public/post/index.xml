@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An inappropriately short summary of Direct Displacement Based Design</title>
+      <link>/post/2020/03/01/an-inappropriately-short-summary-of-direct-displacement-based-design/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/03/01/an-inappropriately-short-summary-of-direct-displacement-based-design/</guid>
+      <description>The fundamental steps of the DDBD procedure has been eloquently presented in many prior publications (M. Priestley 2000; Priestley 2003; M. J. N. Priestley, Calvi, and Kowalsky 2007). This write up is my attempt to summarize this design philosophy in as little words as possible. It is convenient to illustrate the DDBD procedure using an SDOF structure. For MDOF structures, the usual practice is to represent them as equivalent SDOF structures using the substitute structure method proposed by Shibata and Sozen (1976).</description>
+    </item>
     
     <item>
       <title>Statistical Learning</title>

@@ -12,7 +12,7 @@ tags: []
 * [View Alternate Poster](\files\Poster_for_EERI_and_Graduate_Symposium_2020.pdf)
 * [View Cheatsheet for simplified model](\files\Cheatsheet_for_GSS_Poster.pdf)
 * [View Presentation](\files\Presentation_SEM_Symposium_2020.pdf)
-* View paper (Coming soon...)
+* [View short write up on DDBD](\post\2020\03\01\an-inappropriately-short-summary-of-direct-displacement-based-design)
 
 
 ## Abstract

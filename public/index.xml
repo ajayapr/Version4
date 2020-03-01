@@ -6,10 +6,19 @@
     <description>Recent content in Home on Arjun Jayaprakash</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An inappropriately short summary of Direct Displacement Based Design</title>
+      <link>/post/2020/03/01/an-inappropriately-short-summary-of-direct-displacement-based-design/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/03/01/an-inappropriately-short-summary-of-direct-displacement-based-design/</guid>
+      <description>The fundamental steps of the DDBD procedure has been eloquently presented in many prior publications (M. Priestley 2000; Priestley 2003; M. J. N. Priestley, Calvi, and Kowalsky 2007). This write up is my attempt to summarize this design philosophy in as little words as possible. It is convenient to illustrate the DDBD procedure using an SDOF structure. For MDOF structures, the usual practice is to represent them as equivalent SDOF structures using the substitute structure method proposed by Shibata and Sozen (1976).</description>
+    </item>
     
     <item>
       <title>Seismic Design of Steel Bridge Piers with Socket Connection</title>
@@ -17,7 +26,7 @@
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/projects/2020/02/24/seismic-design-of-steel-bridge-piers-with-socket-connection/</guid>
-      <description>Poster Presentation Supplemental Materials  View Alternate Poster View Cheatsheet for simplified model View Presentation View paper (Coming soon…)   Abstract Direct displacement-based seismic design (DDBD) procedure demands that the designer be able to estimate the total displacement of a structural system at important limit states. Generally, this requirement is satisfied through simplified design equations that relate limit state strain or section curvature to global system displacement. In the case of steel bridge substructure systems with hollow circular columns and socket-type connections, estimation of limit state displacements is not trivial because of additional flexibility in the system, attributable to cap-beam flexure and socket connection rotation.</description>
+      <description>Poster Presentation Supplemental Materials  View Alternate Poster View Cheatsheet for simplified model View Presentation View short write up on DDBD   Abstract Direct displacement-based seismic design (DDBD) procedure demands that the designer be able to estimate the total displacement of a structural system at important limit states. Generally, this requirement is satisfied through simplified design equations that relate limit state strain or section curvature to global system displacement.</description>
     </item>
     
     <item>
