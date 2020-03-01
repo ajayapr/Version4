@@ -68,7 +68,7 @@ While there were grouts that exhibited good durability, inconsistencies within t
 
 
 ## Presentations
-* "Predicting the Complete Non-Linear Response of Two-Column Steel Bridge Piers with Socket Connections". _Structural Engineering and Mechanics Symposium at NC State University_, Raleigh, NC, USA, February 28, 2020.([PDF](\files\Presentation_SEM_Symposium_2020.pdf))
+* "Predicting the Complete Non-Linear Response of Two-Column Steel Bridge Piers with Socket Connections". _Structural Engineering and Mechanics Symposium at NC State University_, Raleigh, NC, USA, February 28, 2020. ([PDF](\files\Presentation_SEM_Symposium_2020.pdf))
 
 * "Structural Consequences of Grout Deterioration in the GSS Connection". _Structural Engineering and Mechanics Symposium at NC State University_, Raleigh, NC, USA, March 1, 2019. ([PDF](\files\SEM_Symposium_2019_March.pdf))
 
