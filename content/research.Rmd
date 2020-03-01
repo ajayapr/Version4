@@ -68,6 +68,7 @@ While there were grouts that exhibited good durability, inconsistencies within t
 
 
 ## Presentations
+* ["Predicting the Complete Non-Linear Response of Two-Column Steel Bridge Piers with Socket Connections". _Structural Engineering and Mechanics Symposium at NC State University_, Raleigh, NC, USA, February 28, 2020.](\files\Presentation_SEM_Symposium_2020.pdf)
 
 * "Structural Consequences of Grout Deterioration in the GSS Connection". _Structural Engineering and Mechanics Symposium at NC State University_, Raleigh, NC, USA, March 1, 2019. ([PDF](\files\SEM_Symposium_2019_March.pdf))
 
@@ -80,5 +81,8 @@ While there were grouts that exhibited good durability, inconsistencies within t
 * "Is the Grouted Shear Stud Connection Durable in Cold Climates?". _Bridge Engineering Institute Conference 2019 (BEI 2019)_, Honolulu, HI, USA, July 22-25, 2019. ([PDF](\files\BEIconf.pdf))
 
 ## Posters
+
+* Seismic Performance Limit-States of Steel Bridge Piers with Socket-type
+Connections. ([PDF](\files\Jayaprakash_poster_NEC2020.pdf))
 
 * Durability of the Grouted Shear Stud Connection in Cold Climate. ([PDF](\files\GSSdurability_poster.pdf))
