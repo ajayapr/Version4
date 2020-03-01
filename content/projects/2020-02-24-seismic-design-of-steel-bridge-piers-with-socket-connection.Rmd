@@ -9,9 +9,9 @@ tags: []
 
 ## Poster Presentation Supplemental Materials
 
-* [View Poster](\files\Poster_for_EERI_and_Graduate_Symposium_2020.pdf)
+* [View Alternate Poster](\files\Poster_for_EERI_and_Graduate_Symposium_2020.pdf)
 * [View Cheatsheet for simplified model](\files\Cheatsheet_for_GSS_Poster.pdf)
-* View dissertation chapter
+* [View Presentation](\files\Presentation_SEM_Symposium_2020.pdf)
 * View paper (Coming soon...)
 
 
