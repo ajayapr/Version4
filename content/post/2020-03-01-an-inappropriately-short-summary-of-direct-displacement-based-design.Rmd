@@ -12,7 +12,7 @@ output:
 
 The fundamental steps of the DDBD procedure has been eloquently presented in many prior publications [@priestley2000performance; @priestley2003myths; @Priestley2007DDBD]. This write up is my attempt to summarize this design philosophy in as little words as possible. It is convenient to illustrate the DDBD procedure using an SDOF structure. For MDOF structures, the usual practice is to represent them as equivalent SDOF structures using the substitute structure method proposed by @shibata1976substitute. In Figure \@ref(fig:SDOFddbd)a, a regular frame building and its equivalent SDOF structure is conceptualized. It must be noted that this approach can be extended to any structural type. The bilinear envelope of the lateral force-displacement response of the equivalent SDOF representation is shown in Figure \@ref(fig:SDOFddbd)b.
 
-```{r SDOFddbd, out.width="800px", fig.cap="Fundamentals of DDBD", fig.align='center', echo=FALSE}
+```{r SDOFddbd, out.width="600px", fig.cap="Fundamentals of DDBD", fig.align='center', echo=FALSE}
 knitr::include_graphics("/projects/figures/SDOF_ddbd.PNG")
 ```
 
