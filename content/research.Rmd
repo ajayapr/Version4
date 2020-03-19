@@ -16,6 +16,8 @@ style="max-width:70%;min-width:40px;float:center;">
 
 Read my full research statement [here](\projects\2019\09\28\research-statement).
 
+## Thesis Defense Materials
+
 ## Projects
 
 ### [Direct Displacement-based Seismic Design of Steel Substructures with External Socket Connections](\projects\2020\02\24\seismic-design-of-steel-bridge-piers-with-socket-connection)
