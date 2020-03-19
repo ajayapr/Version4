@@ -18,6 +18,11 @@ Read my full research statement [here](\projects\2019\09\28\research-statement).
 
 ## Thesis Defense Materials
 
+* [View Presentation](\files\PHD_Defense.pdf)
+* [View Full Dissertation](\files\Jayaprakash_thesis.pdf)
+* [View Seismic Design Model Equations](\files\Cheatsheet_for_GSS_Poster.pdf)
+* [View Short Write-up on Displacement Based Design](\post\2020\03\01\an-inappropriately-short-summary-of-direct-displacement-based-design)
+
 ## Projects
 
 ### [Direct Displacement-based Seismic Design of Steel Substructures with External Socket Connections](\projects\2020\02\24\seismic-design-of-steel-bridge-piers-with-socket-connection)
