@@ -16,13 +16,6 @@ style="max-width:70%;min-width:40px;float:center;">
 
 Read my full research statement [here](\projects\2019\09\28\research-statement).
 
-## Thesis Defense Materials
-
-* [View Presentation](\files\PHD_Defense.pdf)
-* [View Full Dissertation (Current Draft)](\files\Jayaprakash_thesis.pdf)
-* [View Seismic Design Model Equations](\files\Cheatsheet_for_GSS_Poster.pdf)
-* [View Short Write-up on Displacement Based Design](\post\2020\03\01\an-inappropriately-short-summary-of-direct-displacement-based-design)
-
 ## Projects
 
 ### [Direct Displacement-based Seismic Design of Steel Substructures with External Socket Connections](\projects\2020\02\24\seismic-design-of-steel-bridge-piers-with-socket-connection)
@@ -86,6 +79,14 @@ While there were grouts that exhibited good durability, inconsistencies within t
 * "Characterizing Seismic Load History for Performance Based Design". _12th Canadian Conference on Earthquake Engineering (CCEE 2019)_, Quebec City, QC, Canada, June 17-20, 2019. ([PDF](\files\12CCEE_Presentation.pdf))
 
 * "Is the Grouted Shear Stud Connection Durable in Cold Climates?". _Bridge Engineering Institute Conference 2019 (BEI 2019)_, Honolulu, HI, USA, July 22-25, 2019. ([PDF](\files\BEIconf.pdf))
+
+## Dissertation
+
+* [View Presentation](\files\PHD_Defense.pdf)
+* [View Full Dissertation (Current Draft)](\files\Jayaprakash_thesis.pdf)
+* [View Seismic Design Model Equations](\files\Cheatsheet_for_GSS_Poster.pdf)
+* [View Short Write-up on Displacement Based Design](\post\2020\03\01\an-inappropriately-short-summary-of-direct-displacement-based-design)
+
 
 ## Posters
 
